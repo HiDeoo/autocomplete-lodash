@@ -1,6 +1,6 @@
 # Lodash Autocomplete Package
 
-[Lodash](https://lodash.com/) methods autocompletions in Atom.
+[Lodash](https://lodash.com/) methods autocompletions in Atom. The suggestions includes the signature, arguments, returns value, a brief description and a direct link to the Lodash documentation.
 
 This package uses the [autocomplete+ package](https://atom.io/packages/autocomplete-plus) bundled natively with Atom.
 
