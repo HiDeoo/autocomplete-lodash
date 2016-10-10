@@ -1,5 +1,9 @@
 # Lodash Autocomplete Package
 
+[![OS X Build Status](https://travis-ci.org/HiDeoo/autocomplete-lodash.svg?branch=master)](https://travis-ci.org/HiDeoo/autocomplete-lodash)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/4kncgpbed7lpcqo1/branch/master?svg=true)](https://ci.appveyor.com/project/HiDeoo/autocomplete-lodash/branch/master)
+[![Dependency Status](https://david-dm.org/HiDeoo/autocomplete-lodash.svg)](https://david-dm.org/HiDeoo/autocomplete-lodash)
+
 [Lodash](https://lodash.com/) methods autocompletions in Atom. The suggestions includes the signature, arguments, returns value, a brief description and a direct link to the Lodash documentation.
 
 This package uses the [autocomplete+ package](https://atom.io/packages/autocomplete-plus) bundled natively with Atom.
