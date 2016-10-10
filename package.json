@@ -1,14 +1,17 @@
 {
   "name": "autocomplete-lodash",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "HiDeoo",
   "description": "Lodash methods autocompletions",
   "keywords": [
     "lodash",
     "autocompletion"
   ],
-  "repository": "https://github.com/atom/autocomplete-lodash",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HiDeoo/autocomplete-lodash"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -20,13 +23,8 @@
       }
     }
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "bugs": "https://github.com/HiDeoo/autocomplete-lodash/issues",
   "contributors": [],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/HiDeoo/autocomplete-lodash"
-  },
   "homepage": "https://github.com/HiDeoo/autocomplete-lodash"
 }
