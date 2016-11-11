@@ -20,7 +20,7 @@ Just type some stuff starting by the Lodash prefix `_.` and the Lodash Autocompl
 
 The Lodash methods informations are generated using [lodash-doc-parser](https://github.com/HiDeoo/lodash-doc-parser) which fetch and parse the latest [Lodash documentation](https://github.com/lodash/lodash/blob/master/doc/README.md).
 
-Current Lodash version: v4.16.6.
+Current Lodash version: v4.17.0.
 
 ## Credits
 

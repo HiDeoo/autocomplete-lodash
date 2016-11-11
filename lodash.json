@@ -2123,10 +2123,10 @@
   },
   {
     "name": "omit",
-    "description": "The opposite of _.pick; this method creates an object composed of the own and inherited enumerable string keyed properties of object that are not omitted.",
+    "description": "The opposite of _.pick; this method creates an object composed of the own and inherited enumerable property paths of object that are not omitted.",
     "arguments": [
       "object",
-      "[props]"
+      "[paths]"
     ],
     "returns": "(Object)",
     "url": "https://lodash.com/docs/4.16.4#omit"
@@ -2146,7 +2146,7 @@
     "description": "Creates an object composed of the picked object properties.",
     "arguments": [
       "object",
-      "[props]"
+      "[paths]"
     ],
     "returns": "(Object)",
     "url": "https://lodash.com/docs/4.16.4#pick"
