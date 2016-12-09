@@ -1,3 +1,7 @@
+## 0.2.3
+
+* Support for Lodash v4.17.2.
+
 ## 0.2.2
 
 * Support for Lodash v4.17.0.
