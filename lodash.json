@@ -2,7 +2,7 @@
   {
     "name": "chunk",
     "description": "Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.",
-    "arguments": [
+    "args": [
       "array",
       "[size=1]"
     ],
@@ -12,7 +12,7 @@
   {
     "name": "compact",
     "description": "Creates an array with all falsey values removed. The values false, null, 0, \"\", undefined, and NaN are falsey.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(Array)",
@@ -21,7 +21,7 @@
   {
     "name": "concat",
     "description": "Creates a new array concatenating array with any additional arrays and/or values.",
-    "arguments": [
+    "args": [
       "array",
       "[values]"
     ],
@@ -31,7 +31,7 @@
   {
     "name": "difference",
     "description": "Creates an array of array values not included in the other given arrays using [object Object] for equality comparisons. The order and references of result values are determined by the first array.",
-    "arguments": [
+    "args": [
       "array",
       "[values]"
     ],
@@ -41,7 +41,7 @@
   {
     "name": "differenceBy",
     "description": "This method is like _.difference except that it accepts iteratee which is invoked for each element of array and values to generate the criterion by which they're compared. The order and references of result values are determined by the first array. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "array",
       "[values]",
       "[iteratee=_.identity]"
@@ -52,7 +52,7 @@
   {
     "name": "differenceWith",
     "description": "This method is like _.difference except that it accepts comparator which is invoked to compare elements of array to values. The order and references of result values are determined by the first array. The comparator is invoked with two arguments: (arrVal, othVal).",
-    "arguments": [
+    "args": [
       "array",
       "[values]",
       "[comparator]"
@@ -63,7 +63,7 @@
   {
     "name": "drop",
     "description": "Creates a slice of array with n elements dropped from the beginning.",
-    "arguments": [
+    "args": [
       "array",
       "[n=1]"
     ],
@@ -73,7 +73,7 @@
   {
     "name": "dropRight",
     "description": "Creates a slice of array with n elements dropped from the end.",
-    "arguments": [
+    "args": [
       "array",
       "[n=1]"
     ],
@@ -83,7 +83,7 @@
   {
     "name": "dropRightWhile",
     "description": "Creates a slice of array excluding elements dropped from the end. Elements are dropped until predicate returns falsey. The predicate is invoked with three arguments: (value, index, array).",
-    "arguments": [
+    "args": [
       "array",
       "[predicate=_.identity]"
     ],
@@ -93,7 +93,7 @@
   {
     "name": "dropWhile",
     "description": "Creates a slice of array excluding elements dropped from the beginning. Elements are dropped until predicate returns falsey. The predicate is invoked with three arguments: (value, index, array).",
-    "arguments": [
+    "args": [
       "array",
       "[predicate=_.identity]"
     ],
@@ -103,7 +103,7 @@
   {
     "name": "fill",
     "description": "Fills elements of array with value from start up to, but not including, end.",
-    "arguments": [
+    "args": [
       "array",
       "value",
       "[start=0]",
@@ -115,7 +115,7 @@
   {
     "name": "findIndex",
     "description": "This method is like _.find except that it returns the index of the first element predicate returns truthy for instead of the element itself.",
-    "arguments": [
+    "args": [
       "array",
       "[predicate=_.identity]",
       "[fromIndex=0]"
@@ -126,7 +126,7 @@
   {
     "name": "findLastIndex",
     "description": "This method is like _.findIndex except that it iterates over elements of collection from right to left.",
-    "arguments": [
+    "args": [
       "array",
       "[predicate=_.identity]",
       "[fromIndex=array.length-1]"
@@ -137,7 +137,7 @@
   {
     "name": "flatten",
     "description": "Flattens array a single level deep.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(Array)",
@@ -146,7 +146,7 @@
   {
     "name": "flattenDeep",
     "description": "Recursively flattens array.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(Array)",
@@ -155,7 +155,7 @@
   {
     "name": "flattenDepth",
     "description": "Recursively flatten array up to depth times.",
-    "arguments": [
+    "args": [
       "array",
       "[depth=1]"
     ],
@@ -165,7 +165,7 @@
   {
     "name": "fromPairs",
     "description": "The inverse of _.toPairs; this method returns an object composed from key-value pairs.",
-    "arguments": [
+    "args": [
       "pairs"
     ],
     "returns": "(Object)",
@@ -174,7 +174,7 @@
   {
     "name": "head",
     "description": "Gets the first element of array.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(*)",
@@ -183,7 +183,7 @@
   {
     "name": "indexOf",
     "description": "Gets the index at which the first occurrence of value is found in array using [object Object] for equality comparisons. If fromIndex is negative, it's used as the offset from the end of array.",
-    "arguments": [
+    "args": [
       "array",
       "value",
       "[fromIndex=0]"
@@ -194,7 +194,7 @@
   {
     "name": "initial",
     "description": "Gets all but the last element of array.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(Array)",
@@ -203,7 +203,7 @@
   {
     "name": "intersection",
     "description": "Creates an array of unique values that are included in all given arrays using [object Object] for equality comparisons. The order and references of result values are determined by the first array.",
-    "arguments": [
+    "args": [
       "[arrays]"
     ],
     "returns": "(Array)",
@@ -212,7 +212,7 @@
   {
     "name": "intersectionBy",
     "description": "This method is like _.intersection except that it accepts iteratee which is invoked for each element of each arrays to generate the criterion by which they're compared. The order and references of result values are determined by the first array. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "[arrays]",
       "[iteratee=_.identity]"
     ],
@@ -222,7 +222,7 @@
   {
     "name": "intersectionWith",
     "description": "This method is like _.intersection except that it accepts comparator which is invoked to compare elements of arrays. The order and references of result values are determined by the first array. The comparator is invoked with two arguments: (arrVal, othVal).",
-    "arguments": [
+    "args": [
       "[arrays]",
       "[comparator]"
     ],
@@ -232,7 +232,7 @@
   {
     "name": "join",
     "description": "Converts all elements in array into a string separated by separator.",
-    "arguments": [
+    "args": [
       "array",
       "[separator=',']"
     ],
@@ -242,7 +242,7 @@
   {
     "name": "last",
     "description": "Gets the last element of array.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(*)",
@@ -251,7 +251,7 @@
   {
     "name": "lastIndexOf",
     "description": "This method is like _.indexOf except that it iterates over elements of array from right to left.",
-    "arguments": [
+    "args": [
       "array",
       "value",
       "[fromIndex=array.length-1]"
@@ -262,7 +262,7 @@
   {
     "name": "nth",
     "description": "Gets the element at index n of array. If n is negative, the nth element from the end is returned.",
-    "arguments": [
+    "args": [
       "array",
       "[n=0]"
     ],
@@ -272,7 +272,7 @@
   {
     "name": "pull",
     "description": "Removes all given values from array using [object Object] for equality comparisons.",
-    "arguments": [
+    "args": [
       "array",
       "[values]"
     ],
@@ -282,7 +282,7 @@
   {
     "name": "pullAll",
     "description": "This method is like _.pull except that it accepts an array of values to remove.",
-    "arguments": [
+    "args": [
       "array",
       "values"
     ],
@@ -292,7 +292,7 @@
   {
     "name": "pullAllBy",
     "description": "This method is like _.pullAll except that it accepts iteratee which is invoked for each element of array and values to generate the criterion by which they're compared. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "array",
       "values",
       "[iteratee=_.identity]"
@@ -303,7 +303,7 @@
   {
     "name": "pullAllWith",
     "description": "This method is like _.pullAll except that it accepts comparator which is invoked to compare elements of array to values. The comparator is invoked with two arguments: (arrVal, othVal).",
-    "arguments": [
+    "args": [
       "array",
       "values",
       "[comparator]"
@@ -314,7 +314,7 @@
   {
     "name": "pullAt",
     "description": "Removes elements from array corresponding to indexes and returns an array of removed elements.",
-    "arguments": [
+    "args": [
       "array",
       "[indexes]"
     ],
@@ -324,7 +324,7 @@
   {
     "name": "remove",
     "description": "Removes all elements from array that predicate returns truthy for and returns an array of the removed elements. The predicate is invoked with three arguments: (value, index, array).",
-    "arguments": [
+    "args": [
       "array",
       "[predicate=_.identity]"
     ],
@@ -334,7 +334,7 @@
   {
     "name": "reverse",
     "description": "Reverses array so that the first element becomes the last, the second element becomes the second to last, and so on.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(Array)",
@@ -343,7 +343,7 @@
   {
     "name": "slice",
     "description": "Creates a slice of array from start up to, but not including, end.",
-    "arguments": [
+    "args": [
       "array",
       "[start=0]",
       "[end=array.length]"
@@ -354,7 +354,7 @@
   {
     "name": "sortedIndex",
     "description": "Uses a binary search to determine the lowest index at which value should be inserted into array in order to maintain its sort order.",
-    "arguments": [
+    "args": [
       "array",
       "value"
     ],
@@ -364,7 +364,7 @@
   {
     "name": "sortedIndexBy",
     "description": "This method is like _.sortedIndex except that it accepts iteratee which is invoked for value and each element of array to compute their sort ranking. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "array",
       "value",
       "[iteratee=_.identity]"
@@ -375,7 +375,7 @@
   {
     "name": "sortedIndexOf",
     "description": "This method is like _.indexOf except that it performs a binary search on a sorted array.",
-    "arguments": [
+    "args": [
       "array",
       "value"
     ],
@@ -385,7 +385,7 @@
   {
     "name": "sortedLastIndex",
     "description": "This method is like _.sortedIndex except that it returns the highest index at which value should be inserted into array in order to maintain its sort order.",
-    "arguments": [
+    "args": [
       "array",
       "value"
     ],
@@ -395,7 +395,7 @@
   {
     "name": "sortedLastIndexBy",
     "description": "This method is like _.sortedLastIndex except that it accepts iteratee which is invoked for value and each element of array to compute their sort ranking. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "array",
       "value",
       "[iteratee=_.identity]"
@@ -406,7 +406,7 @@
   {
     "name": "sortedLastIndexOf",
     "description": "This method is like _.lastIndexOf except that it performs a binary search on a sorted array.",
-    "arguments": [
+    "args": [
       "array",
       "value"
     ],
@@ -416,7 +416,7 @@
   {
     "name": "sortedUniq",
     "description": "This method is like _.uniq except that it's designed and optimized for sorted arrays.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(Array)",
@@ -425,7 +425,7 @@
   {
     "name": "sortedUniqBy",
     "description": "This method is like _.uniqBy except that it's designed and optimized for sorted arrays.",
-    "arguments": [
+    "args": [
       "array",
       "[iteratee]"
     ],
@@ -435,7 +435,7 @@
   {
     "name": "tail",
     "description": "Gets all but the first element of array.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(Array)",
@@ -444,7 +444,7 @@
   {
     "name": "take",
     "description": "Creates a slice of array with n elements taken from the beginning.",
-    "arguments": [
+    "args": [
       "array",
       "[n=1]"
     ],
@@ -454,7 +454,7 @@
   {
     "name": "takeRight",
     "description": "Creates a slice of array with n elements taken from the end.",
-    "arguments": [
+    "args": [
       "array",
       "[n=1]"
     ],
@@ -464,7 +464,7 @@
   {
     "name": "takeRightWhile",
     "description": "Creates a slice of array with elements taken from the end. Elements are taken until predicate returns falsey. The predicate is invoked with three arguments: (value, index, array).",
-    "arguments": [
+    "args": [
       "array",
       "[predicate=_.identity]"
     ],
@@ -474,7 +474,7 @@
   {
     "name": "takeWhile",
     "description": "Creates a slice of array with elements taken from the beginning. Elements are taken until predicate returns falsey. The predicate is invoked with three arguments: (value, index, array).",
-    "arguments": [
+    "args": [
       "array",
       "[predicate=_.identity]"
     ],
@@ -484,7 +484,7 @@
   {
     "name": "union",
     "description": "Creates an array of unique values, in order, from all given arrays using [object Object] for equality comparisons.",
-    "arguments": [
+    "args": [
       "[arrays]"
     ],
     "returns": "(Array)",
@@ -493,7 +493,7 @@
   {
     "name": "unionBy",
     "description": "This method is like _.union except that it accepts iteratee which is invoked for each element of each arrays to generate the criterion by which uniqueness is computed. Result values are chosen from the first array in which the value occurs. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "[arrays]",
       "[iteratee=_.identity]"
     ],
@@ -503,7 +503,7 @@
   {
     "name": "unionWith",
     "description": "This method is like _.union except that it accepts comparator which is invoked to compare elements of arrays. Result values are chosen from the first array in which the value occurs. The comparator is invoked with two arguments: (arrVal, othVal).",
-    "arguments": [
+    "args": [
       "[arrays]",
       "[comparator]"
     ],
@@ -513,7 +513,7 @@
   {
     "name": "uniq",
     "description": "Creates a duplicate-free version of an array, using [object Object] for equality comparisons, in which only the first occurrence of each element is kept. The order of result values is determined by the order they occur in the array.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(Array)",
@@ -522,7 +522,7 @@
   {
     "name": "uniqBy",
     "description": "This method is like _.uniq except that it accepts iteratee which is invoked for each element in array to generate the criterion by which uniqueness is computed. The order of result values is determined by the order they occur in the array. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "array",
       "[iteratee=_.identity]"
     ],
@@ -532,7 +532,7 @@
   {
     "name": "uniqWith",
     "description": "This method is like _.uniq except that it accepts comparator which is invoked to compare elements of array. The order of result values is determined by the order they occur in the array.The comparator is invoked with two arguments: (arrVal, othVal).",
-    "arguments": [
+    "args": [
       "array",
       "[comparator]"
     ],
@@ -542,7 +542,7 @@
   {
     "name": "unzip",
     "description": "This method is like _.zip except that it accepts an array of grouped elements and creates an array regrouping the elements to their pre-zip configuration.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(Array)",
@@ -551,7 +551,7 @@
   {
     "name": "unzipWith",
     "description": "This method is like _.unzip except that it accepts iteratee to specify how regrouped values should be combined. The iteratee is invoked with the elements of each group: (...group).",
-    "arguments": [
+    "args": [
       "array",
       "[iteratee=_.identity]"
     ],
@@ -561,7 +561,7 @@
   {
     "name": "without",
     "description": "Creates an array excluding all given values using [object Object] for equality comparisons.",
-    "arguments": [
+    "args": [
       "array",
       "[values]"
     ],
@@ -571,7 +571,7 @@
   {
     "name": "xor",
     "description": "Creates an array of unique values that is the [object Object] of the given arrays. The order of result values is determined by the order they occur in the arrays.",
-    "arguments": [
+    "args": [
       "[arrays]"
     ],
     "returns": "(Array)",
@@ -580,7 +580,7 @@
   {
     "name": "xorBy",
     "description": "This method is like _.xor except that it accepts iteratee which is invoked for each element of each arrays to generate the criterion by which by which they're compared. The order of result values is determined by the order they occur in the arrays. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "[arrays]",
       "[iteratee=_.identity]"
     ],
@@ -590,7 +590,7 @@
   {
     "name": "xorWith",
     "description": "This method is like _.xor except that it accepts comparator which is invoked to compare elements of arrays. The order of result values is determined by the order they occur in the arrays. The comparator is invoked with two arguments: (arrVal, othVal).",
-    "arguments": [
+    "args": [
       "[arrays]",
       "[comparator]"
     ],
@@ -600,7 +600,7 @@
   {
     "name": "zip",
     "description": "Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.",
-    "arguments": [
+    "args": [
       "[arrays]"
     ],
     "returns": "(Array)",
@@ -609,7 +609,7 @@
   {
     "name": "zipObject",
     "description": "This method is like _.fromPairs except that it accepts two arrays, one of property identifiers and one of corresponding values.",
-    "arguments": [
+    "args": [
       "[props=[]]",
       "[values=[]]"
     ],
@@ -619,7 +619,7 @@
   {
     "name": "zipObjectDeep",
     "description": "This method is like _.zipObject except that it supports property paths.",
-    "arguments": [
+    "args": [
       "[props=[]]",
       "[values=[]]"
     ],
@@ -629,7 +629,7 @@
   {
     "name": "zipWith",
     "description": "This method is like _.zip except that it accepts iteratee to specify how grouped values should be combined. The iteratee is invoked with the elements of each group: (...group).",
-    "arguments": [
+    "args": [
       "[arrays]",
       "[iteratee=_.identity]"
     ],
@@ -639,7 +639,7 @@
   {
     "name": "countBy",
     "description": "Creates an object composed of keys generated from the results of running each element of collection thru iteratee. The corresponding value of each key is the number of times the key was returned by iteratee. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]"
     ],
@@ -649,7 +649,7 @@
   {
     "name": "every",
     "description": "Checks if predicate returns truthy for all elements of collection. Iteration is stopped once predicate returns falsey. The predicate is invoked with three arguments: (value, index|key, collection).",
-    "arguments": [
+    "args": [
       "collection",
       "[predicate=_.identity]"
     ],
@@ -659,7 +659,7 @@
   {
     "name": "filter",
     "description": "Iterates over elements of collection, returning an array of all elements predicate returns truthy for. The predicate is invoked with three arguments: (value, index|key, collection).",
-    "arguments": [
+    "args": [
       "collection",
       "[predicate=_.identity]"
     ],
@@ -669,7 +669,7 @@
   {
     "name": "find",
     "description": "Iterates over elements of collection, returning the first element predicate returns truthy for. The predicate is invoked with three arguments: (value, index|key, collection).",
-    "arguments": [
+    "args": [
       "collection",
       "[predicate=_.identity]",
       "[fromIndex=0]"
@@ -680,7 +680,7 @@
   {
     "name": "findLast",
     "description": "This method is like _.find except that it iterates over elements of collection from right to left.",
-    "arguments": [
+    "args": [
       "collection",
       "[predicate=_.identity]",
       "[fromIndex=collection.length-1]"
@@ -691,7 +691,7 @@
   {
     "name": "flatMap",
     "description": "Creates a flattened array of values by running each element in collection thru iteratee and flattening the mapped results. The iteratee is invoked with three arguments: (value, index|key, collection).",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]"
     ],
@@ -701,7 +701,7 @@
   {
     "name": "flatMapDeep",
     "description": "This method is like _.flatMap except that it recursively flattens the mapped results.",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]"
     ],
@@ -711,7 +711,7 @@
   {
     "name": "flatMapDepth",
     "description": "This method is like _.flatMap except that it recursively flattens the mapped results up to depth times.",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]",
       "[depth=1]"
@@ -722,7 +722,7 @@
   {
     "name": "forEach",
     "description": "Iterates over elements of collection and invokes iteratee for each element. The iteratee is invoked with three arguments: (value, index|key, collection). Iteratee functions may exit iteration early by explicitly returning false.",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]"
     ],
@@ -732,7 +732,7 @@
   {
     "name": "forEachRight",
     "description": "This method is like _.forEach except that it iterates over elements of collection from right to left.",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]"
     ],
@@ -742,7 +742,7 @@
   {
     "name": "groupBy",
     "description": "Creates an object composed of keys generated from the results of running each element of collection thru iteratee. The order of grouped values is determined by the order they occur in collection. The corresponding value of each key is an array of elements responsible for generating the key. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]"
     ],
@@ -752,7 +752,7 @@
   {
     "name": "includes",
     "description": "Checks if value is in collection. If collection is a string, it's checked for a substring of value, otherwise [object Object] is used for equality comparisons. If fromIndex is negative, it's used as the offset from the end of collection.",
-    "arguments": [
+    "args": [
       "collection",
       "value",
       "[fromIndex=0]"
@@ -763,7 +763,7 @@
   {
     "name": "invokeMap",
     "description": "Invokes the method at path of each element in collection, returning an array of the results of each invoked method. Any additional arguments are provided to each invoked method. If path is a function, it's invoked for, and this bound to, each element in collection.",
-    "arguments": [
+    "args": [
       "collection",
       "path",
       "[args]"
@@ -774,7 +774,7 @@
   {
     "name": "keyBy",
     "description": "Creates an object composed of keys generated from the results of running each element of collection thru iteratee. The corresponding value of each key is the last element responsible for generating the key. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]"
     ],
@@ -784,7 +784,7 @@
   {
     "name": "map",
     "description": "Creates an array of values by running each element in collection thru iteratee. The iteratee is invoked with three arguments: (value, index|key, collection).   Many lodash methods are guarded to work as iteratees for methods like",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]"
     ],
@@ -794,7 +794,7 @@
   {
     "name": "orderBy",
     "description": "This method is like _.sortBy except that it allows specifying the sort orders of the iteratees to sort by. If orders is unspecified, all values are sorted in ascending order. Otherwise, specify an order of \"desc\" for descending or \"asc\" for ascending sort order of corresponding values.",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratees=[_.identity]]",
       "[orders]"
@@ -805,7 +805,7 @@
   {
     "name": "partition",
     "description": "Creates an array of elements split into two groups, the first of which contains elements predicate returns truthy for, the second of which contains elements predicate returns falsey for. The predicate is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "collection",
       "[predicate=_.identity]"
     ],
@@ -815,7 +815,7 @@
   {
     "name": "reduce",
     "description": "Reduces collection to a value which is the accumulated result of running each element in collection thru iteratee, where each successive invocation is supplied the return value of the previous. If accumulator is not given, the first element of collection is used as the initial value. The iteratee is invoked with four arguments: (accumulator, value, index|key, collection).   Many lodash methods are guarded to work as iteratees for methods like",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]",
       "[accumulator]"
@@ -826,7 +826,7 @@
   {
     "name": "reduceRight",
     "description": "This method is like _.reduce except that it iterates over elements of collection from right to left.",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratee=_.identity]",
       "[accumulator]"
@@ -837,7 +837,7 @@
   {
     "name": "reject",
     "description": "The opposite of _.filter; this method returns the elements of collection that predicate does not return truthy for.",
-    "arguments": [
+    "args": [
       "collection",
       "[predicate=_.identity]"
     ],
@@ -847,7 +847,7 @@
   {
     "name": "sample",
     "description": "Gets a random element from collection.",
-    "arguments": [
+    "args": [
       "collection"
     ],
     "returns": "(*)",
@@ -856,7 +856,7 @@
   {
     "name": "sampleSize",
     "description": "Gets n random elements at unique keys from collection up to the size of collection.",
-    "arguments": [
+    "args": [
       "collection",
       "[n=1]"
     ],
@@ -866,7 +866,7 @@
   {
     "name": "shuffle",
     "description": "Creates an array of shuffled values, using a version of the [object Object].",
-    "arguments": [
+    "args": [
       "collection"
     ],
     "returns": "(Array)",
@@ -875,7 +875,7 @@
   {
     "name": "size",
     "description": "Gets the size of collection by returning its length for array-like values or the number of own enumerable string keyed properties for objects.",
-    "arguments": [
+    "args": [
       "collection"
     ],
     "returns": "(number)",
@@ -884,7 +884,7 @@
   {
     "name": "some",
     "description": "Checks if predicate returns truthy for any element of collection. Iteration is stopped once predicate returns truthy. The predicate is invoked with three arguments: (value, index|key, collection).",
-    "arguments": [
+    "args": [
       "collection",
       "[predicate=_.identity]"
     ],
@@ -894,7 +894,7 @@
   {
     "name": "sortBy",
     "description": "Creates an array of elements, sorted in ascending order by the results of running each element in a collection thru each iteratee. This method performs a stable sort, that is, it preserves the original sort order of equal elements. The iteratees are invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "collection",
       "[iteratees=[_.identity]]"
     ],
@@ -905,13 +905,13 @@
     "name": "now",
     "description": "Gets the timestamp of the number of milliseconds that have elapsed since the Unix epoch (1 January .",
     "returns": "(number)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#now"
   },
   {
     "name": "after",
     "description": "The opposite of _.before; this method creates a function that invokes func once it's called n or more times.",
-    "arguments": [
+    "args": [
       "n",
       "func"
     ],
@@ -921,7 +921,7 @@
   {
     "name": "ary",
     "description": "Creates a function that invokes func, with up to n arguments, ignoring any additional arguments.",
-    "arguments": [
+    "args": [
       "func",
       "[n=func.length]"
     ],
@@ -931,7 +931,7 @@
   {
     "name": "before",
     "description": "Creates a function that invokes func, with the this binding and arguments of the created function, while it's called less than n times. Subsequent calls to the created function return the result of the last func invocation.",
-    "arguments": [
+    "args": [
       "n",
       "func"
     ],
@@ -941,7 +941,7 @@
   {
     "name": "bind",
     "description": "Creates a function that invokes func with the this binding of thisArg and partials prepended to the arguments it receives.   The",
-    "arguments": [
+    "args": [
       "func",
       "thisArg",
       "[partials]"
@@ -952,7 +952,7 @@
   {
     "name": "bindKey",
     "description": "Creates a function that invokes the method at object[key] with partials prepended to the arguments it receives.   This method differs from",
-    "arguments": [
+    "args": [
       "object",
       "key",
       "[partials]"
@@ -963,7 +963,7 @@
   {
     "name": "curry",
     "description": "Creates a function that accepts arguments of func and either invokes func returning its result, if at least arity number of arguments have been provided, or returns a function that accepts the remaining func arguments, and so on. The arity of func may be specified if func.length is not sufficient.   The",
-    "arguments": [
+    "args": [
       "func",
       "[arity=func.length]"
     ],
@@ -973,7 +973,7 @@
   {
     "name": "curryRight",
     "description": "This method is like _.curry except that arguments are applied to func in the manner of _.partialRight instead of _.partial.   The",
-    "arguments": [
+    "args": [
       "func",
       "[arity=func.length]"
     ],
@@ -983,7 +983,7 @@
   {
     "name": "debounce",
     "description": "Creates a debounced function that delays invoking func until after wait milliseconds have elapsed since the last time the debounced function was invoked. The debounced function comes with a cancel method to cancel delayed func invocations and a flush method to immediately invoke them. Provide options to indicate whether func should be invoked on the leading and/or trailing edge of the wait timeout. The func is invoked with the last arguments provided to the debounced function. Subsequent calls to the debounced function return the result of the last func invocation.",
-    "arguments": [
+    "args": [
       "func",
       "[wait=0]",
       "[options={}]",
@@ -997,7 +997,7 @@
   {
     "name": "defer",
     "description": "Defers invoking the func until the current call stack has cleared. Any additional arguments are provided to func when it's invoked.",
-    "arguments": [
+    "args": [
       "func",
       "[args]"
     ],
@@ -1007,7 +1007,7 @@
   {
     "name": "delay",
     "description": "Invokes func after wait milliseconds. Any additional arguments are provided to func when it's invoked.",
-    "arguments": [
+    "args": [
       "func",
       "wait",
       "[args]"
@@ -1018,7 +1018,7 @@
   {
     "name": "flip",
     "description": "Creates a function that invokes func with arguments reversed.",
-    "arguments": [
+    "args": [
       "func"
     ],
     "returns": "(Function)",
@@ -1027,7 +1027,7 @@
   {
     "name": "memoize",
     "description": "Creates a function that memoizes the result of func. If resolver is provided, it determines the cache key for storing the result based on the arguments provided to the memoized function. By default, the first argument provided to the memoized function is used as the map cache key. The func is invoked with the this binding of the memoized function.",
-    "arguments": [
+    "args": [
       "func",
       "[resolver]"
     ],
@@ -1037,7 +1037,7 @@
   {
     "name": "negate",
     "description": "Creates a function that negates the result of the predicate func. The func predicate is invoked with the this binding and arguments of the created function.",
-    "arguments": [
+    "args": [
       "predicate"
     ],
     "returns": "(Function)",
@@ -1046,7 +1046,7 @@
   {
     "name": "once",
     "description": "Creates a function that is restricted to invoking func once. Repeat calls to the function return the value of the first invocation. The func is invoked with the this binding and arguments of the created function.",
-    "arguments": [
+    "args": [
       "func"
     ],
     "returns": "(Function)",
@@ -1055,7 +1055,7 @@
   {
     "name": "overArgs",
     "description": "Creates a function that invokes func with its arguments transformed.",
-    "arguments": [
+    "args": [
       "func",
       "[transforms=[_.identity]]"
     ],
@@ -1065,7 +1065,7 @@
   {
     "name": "partial",
     "description": "Creates a function that invokes func with partials prepended to the arguments it receives. This method is like _.bind except it does not alter the this binding.   The",
-    "arguments": [
+    "args": [
       "func",
       "[partials]"
     ],
@@ -1075,7 +1075,7 @@
   {
     "name": "partialRight",
     "description": "This method is like _.partial except that partially applied arguments are appended to the arguments it receives.   The",
-    "arguments": [
+    "args": [
       "func",
       "[partials]"
     ],
@@ -1085,7 +1085,7 @@
   {
     "name": "rearg",
     "description": "Creates a function that invokes func with arguments arranged according to the specified indexes where the argument value at the first index is provided as the first argument, the argument value at the second index is provided as the second argument, and so on.",
-    "arguments": [
+    "args": [
       "func",
       "indexes"
     ],
@@ -1095,7 +1095,7 @@
   {
     "name": "rest",
     "description": "Creates a function that invokes func with the this binding of the created function and arguments from start and beyond provided as an array.",
-    "arguments": [
+    "args": [
       "func",
       "[start=func.length-1]"
     ],
@@ -1105,7 +1105,7 @@
   {
     "name": "spread",
     "description": "Creates a function that invokes func with the this binding of the create function and an array of arguments much like [object Object].",
-    "arguments": [
+    "args": [
       "func",
       "[start=0]"
     ],
@@ -1115,7 +1115,7 @@
   {
     "name": "throttle",
     "description": "Creates a throttled function that only invokes func at most once per every wait milliseconds. The throttled function comes with a cancel method to cancel delayed func invocations and a flush method to immediately invoke them. Provide options to indicate whether func should be invoked on the leading and/or trailing edge of the wait timeout. The func is invoked with the last arguments provided to the throttled function. Subsequent calls to the throttled function return the result of the last func invocation.",
-    "arguments": [
+    "args": [
       "func",
       "[wait=0]",
       "[options={}]",
@@ -1128,7 +1128,7 @@
   {
     "name": "unary",
     "description": "Creates a function that accepts up to one argument, ignoring any additional arguments.",
-    "arguments": [
+    "args": [
       "func"
     ],
     "returns": "(Function)",
@@ -1137,7 +1137,7 @@
   {
     "name": "wrap",
     "description": "Creates a function that provides value to wrapper as its first argument. Any additional arguments provided to the function are appended to those provided to the wrapper. The wrapper is invoked with the this binding of the created function.",
-    "arguments": [
+    "args": [
       "value",
       "[wrapper=identity]"
     ],
@@ -1147,7 +1147,7 @@
   {
     "name": "castArray",
     "description": "Casts value as an array if it's not one.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(Array)",
@@ -1156,7 +1156,7 @@
   {
     "name": "clone",
     "description": "Creates a shallow clone of value.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(*)",
@@ -1165,7 +1165,7 @@
   {
     "name": "cloneDeep",
     "description": "This method is like _.clone except that it recursively clones value.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(*)",
@@ -1174,7 +1174,7 @@
   {
     "name": "cloneDeepWith",
     "description": "This method is like _.cloneWith except that it recursively clones value.",
-    "arguments": [
+    "args": [
       "value",
       "[customizer]"
     ],
@@ -1184,7 +1184,7 @@
   {
     "name": "cloneWith",
     "description": "This method is like _.clone except that it accepts customizer which is invoked to produce the cloned value. If customizer returns undefined, cloning is handled by the method instead. The customizer is invoked with up to four arguments; (value .",
-    "arguments": [
+    "args": [
       "value",
       "[customizer]"
     ],
@@ -1194,7 +1194,7 @@
   {
     "name": "conformsTo",
     "description": "Checks if object conforms to source by invoking the predicate properties of source with the corresponding property values of object.",
-    "arguments": [
+    "args": [
       "object",
       "source"
     ],
@@ -1204,7 +1204,7 @@
   {
     "name": "eq",
     "description": "Performs a [object Object] comparison between two values to determine if they are equivalent.",
-    "arguments": [
+    "args": [
       "value",
       "other"
     ],
@@ -1214,7 +1214,7 @@
   {
     "name": "gt",
     "description": "Checks if value is greater than other.",
-    "arguments": [
+    "args": [
       "value",
       "other"
     ],
@@ -1224,7 +1224,7 @@
   {
     "name": "gte",
     "description": "Checks if value is greater than or equal to other.",
-    "arguments": [
+    "args": [
       "value",
       "other"
     ],
@@ -1234,7 +1234,7 @@
   {
     "name": "isArguments",
     "description": "Checks if value is likely an arguments object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1243,7 +1243,7 @@
   {
     "name": "isArray",
     "description": "Checks if value is classified as an Array object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1252,7 +1252,7 @@
   {
     "name": "isArrayBuffer",
     "description": "Checks if value is classified as an ArrayBuffer object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1261,7 +1261,7 @@
   {
     "name": "isArrayLike",
     "description": "Checks if value is array-like. A value is considered array-like if it's not a function and has a value.length that's an integer greater than or equal to 0 and less than or equal to Number.MAX_SAFE_INTEGER.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1270,7 +1270,7 @@
   {
     "name": "isArrayLikeObject",
     "description": "This method is like _.isArrayLike except that it also checks if value is an object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1279,7 +1279,7 @@
   {
     "name": "isBoolean",
     "description": "Checks if value is classified as a boolean primitive or object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1288,7 +1288,7 @@
   {
     "name": "isBuffer",
     "description": "Checks if value is a buffer.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1297,7 +1297,7 @@
   {
     "name": "isDate",
     "description": "Checks if value is classified as a Date object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1306,7 +1306,7 @@
   {
     "name": "isElement",
     "description": "Checks if value is likely a DOM element.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1315,7 +1315,7 @@
   {
     "name": "isEmpty",
     "description": "Checks if value is an empty object, collection, map, or set.   Objects are considered empty if they have no own enumerable string keyed properties.   Array-like values such as",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1324,7 +1324,7 @@
   {
     "name": "isEqual",
     "description": "Performs a deep comparison between two values to determine if they are equivalent.",
-    "arguments": [
+    "args": [
       "value",
       "other"
     ],
@@ -1334,7 +1334,7 @@
   {
     "name": "isEqualWith",
     "description": "This method is like _.isEqual except that it accepts customizer which is invoked to compare values. If customizer returns undefined, comparisons are handled by the method instead. The customizer is invoked with up to six arguments: (objValue, othValue .",
-    "arguments": [
+    "args": [
       "value",
       "other",
       "[customizer]"
@@ -1345,7 +1345,7 @@
   {
     "name": "isError",
     "description": "Checks if value is an Error, EvalError, RangeError, ReferenceError, SyntaxError, TypeError, or URIError object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1354,7 +1354,7 @@
   {
     "name": "isFinite",
     "description": "Checks if value is a finite primitive number.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1363,7 +1363,7 @@
   {
     "name": "isFunction",
     "description": "Checks if value is classified as a Function object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1372,7 +1372,7 @@
   {
     "name": "isInteger",
     "description": "Checks if value is an integer.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1381,7 +1381,7 @@
   {
     "name": "isLength",
     "description": "Checks if value is a valid array-like length.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1390,7 +1390,7 @@
   {
     "name": "isMap",
     "description": "Checks if value is classified as a Map object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1399,7 +1399,7 @@
   {
     "name": "isMatch",
     "description": "Performs a partial deep comparison between object and source to determine if object contains equivalent property values.",
-    "arguments": [
+    "args": [
       "object",
       "source"
     ],
@@ -1409,7 +1409,7 @@
   {
     "name": "isMatchWith",
     "description": "This method is like _.isMatch except that it accepts customizer which is invoked to compare values. If customizer returns undefined, comparisons are handled by the method instead. The customizer is invoked with five arguments: (objValue, srcValue, index|key, object, source).",
-    "arguments": [
+    "args": [
       "object",
       "source",
       "[customizer]"
@@ -1420,7 +1420,7 @@
   {
     "name": "isNaN",
     "description": "Checks if value is NaN.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1429,7 +1429,7 @@
   {
     "name": "isNative",
     "description": "Checks if value is a pristine native function.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1438,7 +1438,7 @@
   {
     "name": "isNil",
     "description": "Checks if value is null or undefined.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1447,7 +1447,7 @@
   {
     "name": "isNull",
     "description": "Checks if value is null.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1456,7 +1456,7 @@
   {
     "name": "isNumber",
     "description": "Checks if value is classified as a Number primitive or object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1465,7 +1465,7 @@
   {
     "name": "isObject",
     "description": "Checks if value is the [object Object] of Object. (e.g. arrays, functions, objects, regexes,",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1474,7 +1474,7 @@
   {
     "name": "isObjectLike",
     "description": "Checks if value is object-like. A value is object-like if it's not null and has a typeof result of \"object\".",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1483,7 +1483,7 @@
   {
     "name": "isPlainObject",
     "description": "Checks if value is a plain object, that is, an object created by the Object constructor or one with a [[Prototype]] of null.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1492,7 +1492,7 @@
   {
     "name": "isRegExp",
     "description": "Checks if value is classified as a RegExp object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1501,7 +1501,7 @@
   {
     "name": "isSafeInteger",
     "description": "Checks if value is a safe integer. An integer is safe if it's an IEEE-754 double precision number which isn't the result of a rounded unsafe integer.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1510,7 +1510,7 @@
   {
     "name": "isSet",
     "description": "Checks if value is classified as a Set object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1519,7 +1519,7 @@
   {
     "name": "isString",
     "description": "Checks if value is classified as a String primitive or object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1528,7 +1528,7 @@
   {
     "name": "isSymbol",
     "description": "Checks if value is classified as a Symbol primitive or object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1537,7 +1537,7 @@
   {
     "name": "isTypedArray",
     "description": "Checks if value is classified as a typed array.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1546,7 +1546,7 @@
   {
     "name": "isUndefined",
     "description": "Checks if value is undefined.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1555,7 +1555,7 @@
   {
     "name": "isWeakMap",
     "description": "Checks if value is classified as a WeakMap object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1564,7 +1564,7 @@
   {
     "name": "isWeakSet",
     "description": "Checks if value is classified as a WeakSet object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(boolean)",
@@ -1573,7 +1573,7 @@
   {
     "name": "lt",
     "description": "Checks if value is less than other.",
-    "arguments": [
+    "args": [
       "value",
       "other"
     ],
@@ -1583,7 +1583,7 @@
   {
     "name": "lte",
     "description": "Checks if value is less than or equal to other.",
-    "arguments": [
+    "args": [
       "value",
       "other"
     ],
@@ -1593,7 +1593,7 @@
   {
     "name": "toArray",
     "description": "Converts value to an array.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(Array)",
@@ -1602,7 +1602,7 @@
   {
     "name": "toFinite",
     "description": "Converts value to a finite number.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(number)",
@@ -1611,7 +1611,7 @@
   {
     "name": "toInteger",
     "description": "Converts value to an integer.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(number)",
@@ -1620,7 +1620,7 @@
   {
     "name": "toLength",
     "description": "Converts value to an integer suitable for use as the length of an array-like object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(number)",
@@ -1629,7 +1629,7 @@
   {
     "name": "toNumber",
     "description": "Converts value to a number.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(number)",
@@ -1638,7 +1638,7 @@
   {
     "name": "toPlainObject",
     "description": "Converts value to a plain object flattening inherited enumerable string keyed properties of value to own properties of the plain object.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(Object)",
@@ -1647,7 +1647,7 @@
   {
     "name": "toSafeInteger",
     "description": "Converts value to a safe integer. A safe integer can be compared and represented correctly.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(number)",
@@ -1656,7 +1656,7 @@
   {
     "name": "toString",
     "description": "Converts value to a string. An empty string is returned for null and undefined values. The sign of -0 is preserved.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(string)",
@@ -1665,7 +1665,7 @@
   {
     "name": "add",
     "description": "Adds two numbers.",
-    "arguments": [
+    "args": [
       "augend",
       "addend"
     ],
@@ -1675,7 +1675,7 @@
   {
     "name": "ceil",
     "description": "Computes number rounded up to precision.",
-    "arguments": [
+    "args": [
       "number",
       "[precision=0]"
     ],
@@ -1685,7 +1685,7 @@
   {
     "name": "divide",
     "description": "Divide two numbers.",
-    "arguments": [
+    "args": [
       "dividend",
       "divisor"
     ],
@@ -1695,7 +1695,7 @@
   {
     "name": "floor",
     "description": "Computes number rounded down to precision.",
-    "arguments": [
+    "args": [
       "number",
       "[precision=0]"
     ],
@@ -1705,7 +1705,7 @@
   {
     "name": "max",
     "description": "Computes the maximum value of array. If array is empty or falsey, undefined is returned.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(*)",
@@ -1714,7 +1714,7 @@
   {
     "name": "maxBy",
     "description": "This method is like _.max except that it accepts iteratee which is invoked for each element in array to generate the criterion by which the value is ranked. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "array",
       "[iteratee=_.identity]"
     ],
@@ -1724,7 +1724,7 @@
   {
     "name": "mean",
     "description": "Computes the mean of the values in array.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(number)",
@@ -1733,7 +1733,7 @@
   {
     "name": "meanBy",
     "description": "This method is like _.mean except that it accepts iteratee which is invoked for each element in array to generate the value to be averaged. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "array",
       "[iteratee=_.identity]"
     ],
@@ -1743,7 +1743,7 @@
   {
     "name": "min",
     "description": "Computes the minimum value of array. If array is empty or falsey, undefined is returned.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(*)",
@@ -1752,7 +1752,7 @@
   {
     "name": "minBy",
     "description": "This method is like _.min except that it accepts iteratee which is invoked for each element in array to generate the criterion by which the value is ranked. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "array",
       "[iteratee=_.identity]"
     ],
@@ -1762,7 +1762,7 @@
   {
     "name": "multiply",
     "description": "Multiply two numbers.",
-    "arguments": [
+    "args": [
       "multiplier",
       "multiplicand"
     ],
@@ -1772,7 +1772,7 @@
   {
     "name": "round",
     "description": "Computes number rounded to precision.",
-    "arguments": [
+    "args": [
       "number",
       "[precision=0]"
     ],
@@ -1782,7 +1782,7 @@
   {
     "name": "subtract",
     "description": "Subtract two numbers.",
-    "arguments": [
+    "args": [
       "minuend",
       "subtrahend"
     ],
@@ -1792,7 +1792,7 @@
   {
     "name": "sum",
     "description": "Computes the sum of the values in array.",
-    "arguments": [
+    "args": [
       "array"
     ],
     "returns": "(number)",
@@ -1801,7 +1801,7 @@
   {
     "name": "sumBy",
     "description": "This method is like _.sum except that it accepts iteratee which is invoked for each element in array to generate the value to be summed. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "array",
       "[iteratee=_.identity]"
     ],
@@ -1811,7 +1811,7 @@
   {
     "name": "clamp",
     "description": "Clamps number within the inclusive lower and upper bounds.",
-    "arguments": [
+    "args": [
       "number",
       "[lower]",
       "upper"
@@ -1822,7 +1822,7 @@
   {
     "name": "inRange",
     "description": "Checks if n is between start and up to, but not including, end. If end is not specified, it's set to start with start then set to 0. If start is greater than end the params are swapped to support negative ranges.",
-    "arguments": [
+    "args": [
       "number",
       "[start=0]",
       "end"
@@ -1833,7 +1833,7 @@
   {
     "name": "random",
     "description": "Produces a random number between the inclusive lower and upper bounds. If only one argument is provided a number between 0 and the given number is returned. If floating is true, or either lower or upper are floats, a floating-point number is returned instead of an integer.",
-    "arguments": [
+    "args": [
       "[lower=0]",
       "[upper=1]",
       "[floating]"
@@ -1844,7 +1844,7 @@
   {
     "name": "assign",
     "description": "Assigns own enumerable string keyed properties of source objects to the destination object. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources.",
-    "arguments": [
+    "args": [
       "object",
       "[sources]"
     ],
@@ -1854,7 +1854,7 @@
   {
     "name": "assignIn",
     "description": "This method is like _.assign except that it iterates over own and inherited source properties.",
-    "arguments": [
+    "args": [
       "object",
       "[sources]"
     ],
@@ -1864,7 +1864,7 @@
   {
     "name": "assignInWith",
     "description": "This method is like _.assignIn except that it accepts customizer which is invoked to produce the assigned values. If customizer returns undefined, assignment is handled by the method instead. The customizer is invoked with five arguments: (objValue, srcValue, key, object, source).",
-    "arguments": [
+    "args": [
       "object",
       "sources",
       "[customizer]"
@@ -1875,7 +1875,7 @@
   {
     "name": "assignWith",
     "description": "This method is like _.assign except that it accepts customizer which is invoked to produce the assigned values. If customizer returns undefined, assignment is handled by the method instead. The customizer is invoked with five arguments: (objValue, srcValue, key, object, source).",
-    "arguments": [
+    "args": [
       "object",
       "sources",
       "[customizer]"
@@ -1886,7 +1886,7 @@
   {
     "name": "at",
     "description": "Creates an array of values corresponding to paths of object.",
-    "arguments": [
+    "args": [
       "object",
       "[paths]"
     ],
@@ -1896,7 +1896,7 @@
   {
     "name": "create",
     "description": "Creates an object that inherits from the prototype object. If a properties object is given, its own enumerable string keyed properties are assigned to the created object.",
-    "arguments": [
+    "args": [
       "prototype",
       "[properties]"
     ],
@@ -1906,7 +1906,7 @@
   {
     "name": "defaults",
     "description": "Assigns own and inherited enumerable string keyed properties of source objects to the destination object for all destination properties that resolve to undefined. Source objects are applied from left to right. Once a property is set, additional values of the same property are ignored.",
-    "arguments": [
+    "args": [
       "object",
       "[sources]"
     ],
@@ -1916,7 +1916,7 @@
   {
     "name": "defaultsDeep",
     "description": "This method is like _.defaults except that it recursively assigns default properties.",
-    "arguments": [
+    "args": [
       "object",
       "[sources]"
     ],
@@ -1926,7 +1926,7 @@
   {
     "name": "findKey",
     "description": "This method is like _.find except that it returns the key of the first element predicate returns truthy for instead of the element itself.",
-    "arguments": [
+    "args": [
       "object",
       "[predicate=_.identity]"
     ],
@@ -1936,7 +1936,7 @@
   {
     "name": "findLastKey",
     "description": "This method is like _.findKey except that it iterates over elements of a collection in the opposite order.",
-    "arguments": [
+    "args": [
       "object",
       "[predicate=_.identity]"
     ],
@@ -1946,7 +1946,7 @@
   {
     "name": "forIn",
     "description": "Iterates over own and inherited enumerable string keyed properties of an object and invokes iteratee for each property. The iteratee is invoked with three arguments: (value, key, object). Iteratee functions may exit iteration early by explicitly returning false.",
-    "arguments": [
+    "args": [
       "object",
       "[iteratee=_.identity]"
     ],
@@ -1956,7 +1956,7 @@
   {
     "name": "forInRight",
     "description": "This method is like _.forIn except that it iterates over properties of object in the opposite order.",
-    "arguments": [
+    "args": [
       "object",
       "[iteratee=_.identity]"
     ],
@@ -1966,7 +1966,7 @@
   {
     "name": "forOwn",
     "description": "Iterates over own enumerable string keyed properties of an object and invokes iteratee for each property. The iteratee is invoked with three arguments: (value, key, object). Iteratee functions may exit iteration early by explicitly returning false.",
-    "arguments": [
+    "args": [
       "object",
       "[iteratee=_.identity]"
     ],
@@ -1976,7 +1976,7 @@
   {
     "name": "forOwnRight",
     "description": "This method is like _.forOwn except that it iterates over properties of object in the opposite order.",
-    "arguments": [
+    "args": [
       "object",
       "[iteratee=_.identity]"
     ],
@@ -1986,7 +1986,7 @@
   {
     "name": "functions",
     "description": "Creates an array of function property names from own enumerable properties of object.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Array)",
@@ -1995,7 +1995,7 @@
   {
     "name": "functionsIn",
     "description": "Creates an array of function property names from own and inherited enumerable properties of object.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Array)",
@@ -2004,7 +2004,7 @@
   {
     "name": "get",
     "description": "Gets the value at path of object. If the resolved value is undefined, the defaultValue is returned in its place.",
-    "arguments": [
+    "args": [
       "object",
       "path",
       "[defaultValue]"
@@ -2015,7 +2015,7 @@
   {
     "name": "has",
     "description": "Checks if path is a direct property of object.",
-    "arguments": [
+    "args": [
       "object",
       "path"
     ],
@@ -2025,7 +2025,7 @@
   {
     "name": "hasIn",
     "description": "Checks if path is a direct or inherited property of object.",
-    "arguments": [
+    "args": [
       "object",
       "path"
     ],
@@ -2035,7 +2035,7 @@
   {
     "name": "invert",
     "description": "Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Object)",
@@ -2044,7 +2044,7 @@
   {
     "name": "invertBy",
     "description": "This method is like _.invert except that the inverted object is generated from the results of running each element of object thru iteratee. The corresponding inverted value of each inverted key is an array of keys responsible for generating the inverted value. The iteratee is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "object",
       "[iteratee=_.identity]"
     ],
@@ -2054,7 +2054,7 @@
   {
     "name": "invoke",
     "description": "Invokes the method at path of object.",
-    "arguments": [
+    "args": [
       "object",
       "path",
       "[args]"
@@ -2065,7 +2065,7 @@
   {
     "name": "keys",
     "description": "Creates an array of the own enumerable property names of object.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Array)",
@@ -2074,7 +2074,7 @@
   {
     "name": "keysIn",
     "description": "Creates an array of the own and inherited enumerable property names of object.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Array)",
@@ -2083,7 +2083,7 @@
   {
     "name": "mapKeys",
     "description": "The opposite of _.mapValues; this method creates an object with the same values as object and keys generated by running each own enumerable string keyed property of object thru iteratee. The iteratee is invoked with three arguments: (value, key, object).",
-    "arguments": [
+    "args": [
       "object",
       "[iteratee=_.identity]"
     ],
@@ -2093,7 +2093,7 @@
   {
     "name": "mapValues",
     "description": "Creates an object with the same keys as object and values generated by running each own enumerable string keyed property of object thru iteratee. The iteratee is invoked with three arguments: (value, key, object).",
-    "arguments": [
+    "args": [
       "object",
       "[iteratee=_.identity]"
     ],
@@ -2103,7 +2103,7 @@
   {
     "name": "merge",
     "description": "This method is like _.assign except that it recursively merges own and inherited enumerable string keyed properties of source objects into the destination object. Source properties that resolve to undefined are skipped if a destination value exists. Array and plain object properties are merged recursively. Other objects and value types are overridden by assignment. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources.",
-    "arguments": [
+    "args": [
       "object",
       "[sources]"
     ],
@@ -2113,7 +2113,7 @@
   {
     "name": "mergeWith",
     "description": "This method is like _.merge except that it accepts customizer which is invoked to produce the merged values of the destination and source properties. If customizer returns undefined, merging is handled by the method instead. The customizer is invoked with six arguments: (objValue, srcValue, key, object, source, stack).",
-    "arguments": [
+    "args": [
       "object",
       "sources",
       "customizer"
@@ -2124,7 +2124,7 @@
   {
     "name": "omit",
     "description": "The opposite of _.pick; this method creates an object composed of the own and inherited enumerable property paths of object that are not omitted.",
-    "arguments": [
+    "args": [
       "object",
       "[paths]"
     ],
@@ -2134,7 +2134,7 @@
   {
     "name": "omitBy",
     "description": "The opposite of _.pickBy; this method creates an object composed of the own and inherited enumerable string keyed properties of object that predicate doesn't return truthy for. The predicate is invoked with two arguments: (value, key).",
-    "arguments": [
+    "args": [
       "object",
       "[predicate=_.identity]"
     ],
@@ -2144,7 +2144,7 @@
   {
     "name": "pick",
     "description": "Creates an object composed of the picked object properties.",
-    "arguments": [
+    "args": [
       "object",
       "[paths]"
     ],
@@ -2154,7 +2154,7 @@
   {
     "name": "pickBy",
     "description": "Creates an object composed of the object properties predicate returns truthy for. The predicate is invoked with two arguments: (value, key).",
-    "arguments": [
+    "args": [
       "object",
       "[predicate=_.identity]"
     ],
@@ -2164,7 +2164,7 @@
   {
     "name": "result",
     "description": "This method is like _.get except that if the resolved value is a function it's invoked with the this binding of its parent object and its result is returned.",
-    "arguments": [
+    "args": [
       "object",
       "path",
       "[defaultValue]"
@@ -2175,7 +2175,7 @@
   {
     "name": "set",
     "description": "Sets the value at path of object. If a portion of path doesn't exist, it's created. Arrays are created for missing index properties while objects are created for all other missing properties. Use _.setWith to customize path creation.",
-    "arguments": [
+    "args": [
       "object",
       "path",
       "value"
@@ -2186,7 +2186,7 @@
   {
     "name": "setWith",
     "description": "This method is like _.set except that it accepts customizer which is invoked to produce the objects of path.  If customizer returns undefined path creation is handled by the method instead. The customizer is invoked with three arguments: (nsValue, key, nsObject).",
-    "arguments": [
+    "args": [
       "object",
       "path",
       "value",
@@ -2198,7 +2198,7 @@
   {
     "name": "toPairs",
     "description": "Creates an array of own enumerable string keyed-value pairs for object which can be consumed by _.fromPairs. If object is a map or set, its entries are returned.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Array)",
@@ -2207,7 +2207,7 @@
   {
     "name": "toPairsIn",
     "description": "Creates an array of own and inherited enumerable string keyed-value pairs for object which can be consumed by _.fromPairs. If object is a map or set, its entries are returned.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Array)",
@@ -2216,7 +2216,7 @@
   {
     "name": "transform",
     "description": "An alternative to _.reduce; this method transforms object to a new accumulator object which is the result of running each of its own enumerable string keyed properties thru iteratee, with each invocation potentially mutating the accumulator object. If accumulator is not provided, a new object with the same [[Prototype]] will be used. The iteratee is invoked with four arguments: (accumulator, value, key, object). Iteratee functions may exit iteration early by explicitly returning false.",
-    "arguments": [
+    "args": [
       "object",
       "[iteratee=_.identity]",
       "[accumulator]"
@@ -2227,7 +2227,7 @@
   {
     "name": "unset",
     "description": "Removes the property at path of object.",
-    "arguments": [
+    "args": [
       "object",
       "path"
     ],
@@ -2237,7 +2237,7 @@
   {
     "name": "update",
     "description": "This method is like _.set except that accepts updater to produce the value to set. Use _.updateWith to customize path creation. The updater is invoked with one argument: (value).",
-    "arguments": [
+    "args": [
       "object",
       "path",
       "updater"
@@ -2248,7 +2248,7 @@
   {
     "name": "updateWith",
     "description": "This method is like _.update except that it accepts customizer which is invoked to produce the objects of path.  If customizer returns undefined path creation is handled by the method instead. The customizer is invoked with three arguments: (nsValue, key, nsObject).",
-    "arguments": [
+    "args": [
       "object",
       "path",
       "updater",
@@ -2260,7 +2260,7 @@
   {
     "name": "values",
     "description": "Creates an array of the own enumerable string keyed property values of object.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Array)",
@@ -2269,7 +2269,7 @@
   {
     "name": "valuesIn",
     "description": "Creates an array of the own and inherited enumerable string keyed property values of object.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Array)",
@@ -2278,7 +2278,7 @@
   {
     "name": "chain",
     "description": "Creates a lodash wrapper instance that wraps value with explicit method chain sequences enabled. The result of such sequences must be unwrapped with _#value.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(Object)",
@@ -2287,7 +2287,7 @@
   {
     "name": "tap",
     "description": "This method invokes interceptor and returns value. The interceptor is invoked with one argument; (value). The purpose of this method is to \"tap into\" a method chain sequence in order to modify intermediate results.",
-    "arguments": [
+    "args": [
       "value",
       "interceptor"
     ],
@@ -2297,7 +2297,7 @@
   {
     "name": "thru",
     "description": "This method is like _.tap except that it returns the result of interceptor. The purpose of this method is to \"pass thru\" values replacing intermediate results in a method chain sequence.",
-    "arguments": [
+    "args": [
       "value",
       "interceptor"
     ],
@@ -2307,7 +2307,7 @@
   {
     "name": "at",
     "description": "This method is the wrapper version of _.at.",
-    "arguments": [
+    "args": [
       "[paths]"
     ],
     "returns": "(Object)",
@@ -2317,27 +2317,27 @@
     "name": "chain",
     "description": "Creates a lodash wrapper instance with explicit method chain sequences enabled.",
     "returns": "(Object)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#chain"
   },
   {
     "name": "commit",
     "description": "Executes the chain sequence and returns the wrapped result.",
     "returns": "(Object)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#commit"
   },
   {
     "name": "next",
     "description": "Gets the next value on a wrapped object following the [object Object].",
     "returns": "(Object)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#next"
   },
   {
     "name": "plant",
     "description": "Creates a clone of the chain sequence planting value as the wrapped value.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(Object)",
@@ -2347,20 +2347,20 @@
     "name": "reverse",
     "description": "This method is the wrapper version of _.reverse.",
     "returns": "(Object)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#reverse"
   },
   {
     "name": "value",
     "description": "Executes the chain sequence to resolve the unwrapped value.",
     "returns": "(*)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#value"
   },
   {
     "name": "camelCase",
     "description": "Converts string to [object Object].",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2369,7 +2369,7 @@
   {
     "name": "capitalize",
     "description": "Converts the first character of string to upper case and the remaining to lower case.",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2378,7 +2378,7 @@
   {
     "name": "deburr",
     "description": "Deburrs string by converting [object Object] and [object Object] letters to basic Latin letters and removing [object Object].",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2387,7 +2387,7 @@
   {
     "name": "endsWith",
     "description": "Checks if string ends with the given target string.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[target]",
       "[position=string.length]"
@@ -2398,7 +2398,7 @@
   {
     "name": "escape",
     "description": "Converts the characters \"&\", \"<\", \">\", '\"', and \"'\" in string to their corresponding HTML entities.",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2407,7 +2407,7 @@
   {
     "name": "escapeRegExp",
     "description": "Escapes the RegExp special characters \"^\", \"$\", \"\\\", \".\", \"*\", \"+\", \"?\", \"(\", \")\", \"[object Object]\", \"{\", \"}\", and \"|\" in string.",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2416,7 +2416,7 @@
   {
     "name": "kebabCase",
     "description": "Converts string to [object Object].",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2425,7 +2425,7 @@
   {
     "name": "lowerCase",
     "description": "Converts string, as space separated words, to lower case.",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2434,7 +2434,7 @@
   {
     "name": "lowerFirst",
     "description": "Converts the first character of string to lower case.",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2443,7 +2443,7 @@
   {
     "name": "pad",
     "description": "Pads string on the left and right sides if it's shorter than length. Padding characters are truncated if they can't be evenly divided by length.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[length=0]",
       "[chars=' ']"
@@ -2454,7 +2454,7 @@
   {
     "name": "padEnd",
     "description": "Pads string on the right side if it's shorter than length. Padding characters are truncated if they exceed length.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[length=0]",
       "[chars=' ']"
@@ -2465,7 +2465,7 @@
   {
     "name": "padStart",
     "description": "Pads string on the left side if it's shorter than length. Padding characters are truncated if they exceed length.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[length=0]",
       "[chars=' ']"
@@ -2476,7 +2476,7 @@
   {
     "name": "parseInt",
     "description": "Converts string to an integer of the specified radix. If radix is undefined or 0, a radix of 10 is used unless value is a hexadecimal, in which case a radix of 16 is used.",
-    "arguments": [
+    "args": [
       "string",
       "[radix=10]"
     ],
@@ -2486,7 +2486,7 @@
   {
     "name": "repeat",
     "description": "Repeats the given string n times.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[n=1]"
     ],
@@ -2496,7 +2496,7 @@
   {
     "name": "replace",
     "description": "Replaces matches for pattern in string with replacement.",
-    "arguments": [
+    "args": [
       "[string='']",
       "pattern",
       "replacement"
@@ -2507,7 +2507,7 @@
   {
     "name": "snakeCase",
     "description": "Converts string to [object Object].",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2516,7 +2516,7 @@
   {
     "name": "split",
     "description": "Splits string by separator.",
-    "arguments": [
+    "args": [
       "[string='']",
       "separator",
       "[limit]"
@@ -2527,7 +2527,7 @@
   {
     "name": "startCase",
     "description": "Converts string to [object Object].",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2536,7 +2536,7 @@
   {
     "name": "startsWith",
     "description": "Checks if string starts with the given target string.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[target]",
       "[position=0]"
@@ -2547,7 +2547,7 @@
   {
     "name": "template",
     "description": "Creates a compiled template function that can interpolate data properties in \"interpolate\" delimiters, HTML-escape interpolated data properties in \"escape\" delimiters, and execute JavaScript in \"evaluate\" delimiters. Data properties may be accessed as free variables in the template. If a setting object is given, it takes precedence over _.templateSettings values.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[options={}]",
       "[options.escape=_.templateSettings.escape]",
@@ -2563,7 +2563,7 @@
   {
     "name": "toLower",
     "description": "Converts string, as a whole, to lower case just like [object Object].",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2572,7 +2572,7 @@
   {
     "name": "toUpper",
     "description": "Converts string, as a whole, to upper case just like [object Object].",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2581,7 +2581,7 @@
   {
     "name": "trim",
     "description": "Removes leading and trailing whitespace or specified characters from string.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[chars=whitespace]"
     ],
@@ -2591,7 +2591,7 @@
   {
     "name": "trimEnd",
     "description": "Removes trailing whitespace or specified characters from string.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[chars=whitespace]"
     ],
@@ -2601,7 +2601,7 @@
   {
     "name": "trimStart",
     "description": "Removes leading whitespace or specified characters from string.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[chars=whitespace]"
     ],
@@ -2611,7 +2611,7 @@
   {
     "name": "truncate",
     "description": "Truncates string if it's longer than the given maximum string length. The last characters of the truncated string are replaced with the omission string which defaults to \"...\".",
-    "arguments": [
+    "args": [
       "[string='']",
       "[options={}]",
       "[options.length=30]",
@@ -2624,7 +2624,7 @@
   {
     "name": "unescape",
     "description": "The inverse of _.escape; this method converts the HTML entities &amp;, &lt;, &gt;, &quot;, and &#39; in string to their corresponding characters.",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2633,7 +2633,7 @@
   {
     "name": "upperCase",
     "description": "Converts string, as space separated words, to upper case.",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2642,7 +2642,7 @@
   {
     "name": "upperFirst",
     "description": "Converts the first character of string to upper case.",
-    "arguments": [
+    "args": [
       "[string='']"
     ],
     "returns": "(string)",
@@ -2651,7 +2651,7 @@
   {
     "name": "words",
     "description": "Splits string into an array of its words.",
-    "arguments": [
+    "args": [
       "[string='']",
       "[pattern]"
     ],
@@ -2661,7 +2661,7 @@
   {
     "name": "attempt",
     "description": "Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it's invoked.",
-    "arguments": [
+    "args": [
       "func",
       "[args]"
     ],
@@ -2671,7 +2671,7 @@
   {
     "name": "bindAll",
     "description": "Binds methods of an object to the object itself, overwriting the existing method.",
-    "arguments": [
+    "args": [
       "object",
       "methodNames"
     ],
@@ -2681,7 +2681,7 @@
   {
     "name": "cond",
     "description": "Creates a function that iterates over pairs and invokes the corresponding function of the first predicate to return truthy. The predicate-function pairs are invoked with the this binding and arguments of the created function.",
-    "arguments": [
+    "args": [
       "pairs"
     ],
     "returns": "(Function)",
@@ -2690,7 +2690,7 @@
   {
     "name": "conforms",
     "description": "Creates a function that invokes the predicate properties of source with the corresponding property values of a given object, returning true if all predicates return truthy, else false.",
-    "arguments": [
+    "args": [
       "source"
     ],
     "returns": "(Function)",
@@ -2699,7 +2699,7 @@
   {
     "name": "constant",
     "description": "Creates a function that returns value.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(Function)",
@@ -2708,7 +2708,7 @@
   {
     "name": "defaultTo",
     "description": "Checks value to determine whether a default value should be returned in its place. The defaultValue is returned if value is NaN, null, or undefined.",
-    "arguments": [
+    "args": [
       "value",
       "defaultValue"
     ],
@@ -2718,7 +2718,7 @@
   {
     "name": "flow",
     "description": "Creates a function that returns the result of invoking the given functions with the this binding of the created function, where each successive invocation is supplied the return value of the previous.",
-    "arguments": [
+    "args": [
       "[funcs]"
     ],
     "returns": "(Function)",
@@ -2727,7 +2727,7 @@
   {
     "name": "flowRight",
     "description": "This method is like _.flow except that it creates a function that invokes the given functions from right to left.",
-    "arguments": [
+    "args": [
       "[funcs]"
     ],
     "returns": "(Function)",
@@ -2736,7 +2736,7 @@
   {
     "name": "identity",
     "description": "This method returns the first argument it receives.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(*)",
@@ -2745,7 +2745,7 @@
   {
     "name": "iteratee",
     "description": "Creates a function that invokes func with the arguments of the created function. If func is a property name, the created function returns the property value for a given element. If func is an array or object, the created function returns true for elements that contain the equivalent source properties, otherwise it returns false.",
-    "arguments": [
+    "args": [
       "[func=_.identity]"
     ],
     "returns": "(Function)",
@@ -2754,7 +2754,7 @@
   {
     "name": "matches",
     "description": "Creates a function that performs a partial deep comparison between a given object and source, returning true if the given object has equivalent property values, else false.",
-    "arguments": [
+    "args": [
       "source"
     ],
     "returns": "(Function)",
@@ -2763,7 +2763,7 @@
   {
     "name": "matchesProperty",
     "description": "Creates a function that performs a partial deep comparison between the value at path of a given object to srcValue, returning true if the object value is equivalent, else false.",
-    "arguments": [
+    "args": [
       "path",
       "srcValue"
     ],
@@ -2773,7 +2773,7 @@
   {
     "name": "method",
     "description": "Creates a function that invokes the method at path of a given object. Any additional arguments are provided to the invoked method.",
-    "arguments": [
+    "args": [
       "path",
       "[args]"
     ],
@@ -2783,7 +2783,7 @@
   {
     "name": "methodOf",
     "description": "The opposite of _.method; this method creates a function that invokes the method at a given path of object. Any additional arguments are provided to the invoked method.",
-    "arguments": [
+    "args": [
       "object",
       "[args]"
     ],
@@ -2793,7 +2793,7 @@
   {
     "name": "mixin",
     "description": "Adds all own enumerable string keyed function properties of a source object to the destination object. If object is a function, then methods are added to its prototype as well.",
-    "arguments": [
+    "args": [
       "[object=lodash]",
       "source",
       "[options={}]",
@@ -2806,20 +2806,20 @@
     "name": "noConflict",
     "description": "Reverts the _ variable to its previous value and returns a reference to the lodash function.",
     "returns": "(Function)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#noConflict"
   },
   {
     "name": "noop",
     "description": "This method returns undefined.",
-    "arguments": [],
+    "args": [],
     "returns": "undefined",
     "url": "https://lodash.com/docs/4.16.4#noop"
   },
   {
     "name": "nthArg",
     "description": "Creates a function that gets the argument at index n. If n is negative, the nth argument from the end is returned.",
-    "arguments": [
+    "args": [
       "[n=0]"
     ],
     "returns": "(Function)",
@@ -2828,7 +2828,7 @@
   {
     "name": "over",
     "description": "Creates a function that invokes iteratees with the arguments it receives and returns their results.",
-    "arguments": [
+    "args": [
       "[iteratees=[_.identity]]"
     ],
     "returns": "(Function)",
@@ -2837,7 +2837,7 @@
   {
     "name": "overEvery",
     "description": "Creates a function that checks if all of the predicates return truthy when invoked with the arguments it receives.",
-    "arguments": [
+    "args": [
       "[predicates=[_.identity]]"
     ],
     "returns": "(Function)",
@@ -2846,7 +2846,7 @@
   {
     "name": "overSome",
     "description": "Creates a function that checks if any of the predicates return truthy when invoked with the arguments it receives.",
-    "arguments": [
+    "args": [
       "[predicates=[_.identity]]"
     ],
     "returns": "(Function)",
@@ -2855,7 +2855,7 @@
   {
     "name": "property",
     "description": "Creates a function that returns the value at path of a given object.",
-    "arguments": [
+    "args": [
       "path"
     ],
     "returns": "(Function)",
@@ -2864,7 +2864,7 @@
   {
     "name": "propertyOf",
     "description": "The opposite of _.property; this method creates a function that returns the value at a given path of object.",
-    "arguments": [
+    "args": [
       "object"
     ],
     "returns": "(Function)",
@@ -2873,7 +2873,7 @@
   {
     "name": "range",
     "description": "Creates an array of numbers (positive and/or negative) progressing from start up to, but not including, end. A step of -1 is used if a negative start is specified without an end or step. If end is not specified, it's set to start with start then set to 0.",
-    "arguments": [
+    "args": [
       "[start=0]",
       "end",
       "[step=1]"
@@ -2884,7 +2884,7 @@
   {
     "name": "rangeRight",
     "description": "This method is like _.range except that it populates values in descending order.",
-    "arguments": [
+    "args": [
       "[start=0]",
       "end",
       "[step=1]"
@@ -2895,7 +2895,7 @@
   {
     "name": "runInContext",
     "description": "Create a new pristine lodash function using the context object.",
-    "arguments": [
+    "args": [
       "[context=root]"
     ],
     "returns": "(Function)",
@@ -2905,41 +2905,41 @@
     "name": "stubArray",
     "description": "This method returns a new empty array.",
     "returns": "(Array)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#stubArray"
   },
   {
     "name": "stubFalse",
     "description": "This method returns false.",
     "returns": "(boolean)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#stubFalse"
   },
   {
     "name": "stubObject",
     "description": "This method returns a new empty object.",
     "returns": "(Object)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#stubObject"
   },
   {
     "name": "stubString",
     "description": "This method returns an empty string.",
     "returns": "(string)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#stubString"
   },
   {
     "name": "stubTrue",
     "description": "This method returns true.",
     "returns": "(boolean)",
-    "arguments": [],
+    "args": [],
     "url": "https://lodash.com/docs/4.16.4#stubTrue"
   },
   {
     "name": "times",
     "description": "Invokes the iteratee n times, returning an array of the results of each invocation. The iteratee is invoked with one argument; (index).",
-    "arguments": [
+    "args": [
       "n",
       "[iteratee=_.identity]"
     ],
@@ -2949,7 +2949,7 @@
   {
     "name": "toPath",
     "description": "Converts value to a property path array.",
-    "arguments": [
+    "args": [
       "value"
     ],
     "returns": "(Array)",
@@ -2958,7 +2958,7 @@
   {
     "name": "uniqueId",
     "description": "Generates a unique ID. If prefix is given, the ID is appended to it.",
-    "arguments": [
+    "args": [
       "[prefix='']"
     ],
     "returns": "(string)",
