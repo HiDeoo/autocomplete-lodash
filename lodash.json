@@ -7,7 +7,7 @@
       "[size=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#chunk"
+    "url": "https://lodash.com/docs#chunk"
   },
   {
     "name": "compact",
@@ -16,7 +16,7 @@
       "array"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#compact"
+    "url": "https://lodash.com/docs#compact"
   },
   {
     "name": "concat",
@@ -26,7 +26,7 @@
       "[values]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#concat"
+    "url": "https://lodash.com/docs#concat"
   },
   {
     "name": "difference",
@@ -36,7 +36,7 @@
       "[values]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#difference"
+    "url": "https://lodash.com/docs#difference"
   },
   {
     "name": "differenceBy",
@@ -47,7 +47,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#differenceBy"
+    "url": "https://lodash.com/docs#differenceBy"
   },
   {
     "name": "differenceWith",
@@ -58,7 +58,7 @@
       "[comparator]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#differenceWith"
+    "url": "https://lodash.com/docs#differenceWith"
   },
   {
     "name": "drop",
@@ -68,7 +68,7 @@
       "[n=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#drop"
+    "url": "https://lodash.com/docs#drop"
   },
   {
     "name": "dropRight",
@@ -78,7 +78,7 @@
       "[n=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#dropRight"
+    "url": "https://lodash.com/docs#dropRight"
   },
   {
     "name": "dropRightWhile",
@@ -88,7 +88,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#dropRightWhile"
+    "url": "https://lodash.com/docs#dropRightWhile"
   },
   {
     "name": "dropWhile",
@@ -98,7 +98,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#dropWhile"
+    "url": "https://lodash.com/docs#dropWhile"
   },
   {
     "name": "fill",
@@ -110,7 +110,7 @@
       "[end=array.length]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#fill"
+    "url": "https://lodash.com/docs#fill"
   },
   {
     "name": "findIndex",
@@ -121,7 +121,7 @@
       "[fromIndex=0]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#findIndex"
+    "url": "https://lodash.com/docs#findIndex"
   },
   {
     "name": "findLastIndex",
@@ -132,7 +132,7 @@
       "[fromIndex=array.length-1]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#findLastIndex"
+    "url": "https://lodash.com/docs#findLastIndex"
   },
   {
     "name": "flatten",
@@ -141,7 +141,7 @@
       "array"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#flatten"
+    "url": "https://lodash.com/docs#flatten"
   },
   {
     "name": "flattenDeep",
@@ -150,7 +150,7 @@
       "array"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#flattenDeep"
+    "url": "https://lodash.com/docs#flattenDeep"
   },
   {
     "name": "flattenDepth",
@@ -160,7 +160,7 @@
       "[depth=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#flattenDepth"
+    "url": "https://lodash.com/docs#flattenDepth"
   },
   {
     "name": "fromPairs",
@@ -169,7 +169,7 @@
       "pairs"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#fromPairs"
+    "url": "https://lodash.com/docs#fromPairs"
   },
   {
     "name": "head",
@@ -178,7 +178,7 @@
       "array"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#head"
+    "url": "https://lodash.com/docs#head"
   },
   {
     "name": "indexOf",
@@ -189,7 +189,7 @@
       "[fromIndex=0]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#indexOf"
+    "url": "https://lodash.com/docs#indexOf"
   },
   {
     "name": "initial",
@@ -198,7 +198,7 @@
       "array"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#initial"
+    "url": "https://lodash.com/docs#initial"
   },
   {
     "name": "intersection",
@@ -207,7 +207,7 @@
       "[arrays]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#intersection"
+    "url": "https://lodash.com/docs#intersection"
   },
   {
     "name": "intersectionBy",
@@ -217,7 +217,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#intersectionBy"
+    "url": "https://lodash.com/docs#intersectionBy"
   },
   {
     "name": "intersectionWith",
@@ -227,7 +227,7 @@
       "[comparator]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#intersectionWith"
+    "url": "https://lodash.com/docs#intersectionWith"
   },
   {
     "name": "join",
@@ -237,7 +237,7 @@
       "[separator=',']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#join"
+    "url": "https://lodash.com/docs#join"
   },
   {
     "name": "last",
@@ -246,7 +246,7 @@
       "array"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#last"
+    "url": "https://lodash.com/docs#last"
   },
   {
     "name": "lastIndexOf",
@@ -257,7 +257,7 @@
       "[fromIndex=array.length-1]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#lastIndexOf"
+    "url": "https://lodash.com/docs#lastIndexOf"
   },
   {
     "name": "nth",
@@ -267,7 +267,7 @@
       "[n=0]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#nth"
+    "url": "https://lodash.com/docs#nth"
   },
   {
     "name": "pull",
@@ -277,7 +277,7 @@
       "[values]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#pull"
+    "url": "https://lodash.com/docs#pull"
   },
   {
     "name": "pullAll",
@@ -287,7 +287,7 @@
       "values"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#pullAll"
+    "url": "https://lodash.com/docs#pullAll"
   },
   {
     "name": "pullAllBy",
@@ -298,7 +298,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#pullAllBy"
+    "url": "https://lodash.com/docs#pullAllBy"
   },
   {
     "name": "pullAllWith",
@@ -309,7 +309,7 @@
       "[comparator]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#pullAllWith"
+    "url": "https://lodash.com/docs#pullAllWith"
   },
   {
     "name": "pullAt",
@@ -319,7 +319,7 @@
       "[indexes]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#pullAt"
+    "url": "https://lodash.com/docs#pullAt"
   },
   {
     "name": "remove",
@@ -329,7 +329,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#remove"
+    "url": "https://lodash.com/docs#remove"
   },
   {
     "name": "reverse",
@@ -338,7 +338,7 @@
       "array"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#reverse"
+    "url": "https://lodash.com/docs#reverse"
   },
   {
     "name": "slice",
@@ -349,7 +349,7 @@
       "[end=array.length]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#slice"
+    "url": "https://lodash.com/docs#slice"
   },
   {
     "name": "sortedIndex",
@@ -359,7 +359,7 @@
       "value"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#sortedIndex"
+    "url": "https://lodash.com/docs#sortedIndex"
   },
   {
     "name": "sortedIndexBy",
@@ -370,7 +370,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#sortedIndexBy"
+    "url": "https://lodash.com/docs#sortedIndexBy"
   },
   {
     "name": "sortedIndexOf",
@@ -380,7 +380,7 @@
       "value"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#sortedIndexOf"
+    "url": "https://lodash.com/docs#sortedIndexOf"
   },
   {
     "name": "sortedLastIndex",
@@ -390,7 +390,7 @@
       "value"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#sortedLastIndex"
+    "url": "https://lodash.com/docs#sortedLastIndex"
   },
   {
     "name": "sortedLastIndexBy",
@@ -401,7 +401,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#sortedLastIndexBy"
+    "url": "https://lodash.com/docs#sortedLastIndexBy"
   },
   {
     "name": "sortedLastIndexOf",
@@ -411,7 +411,7 @@
       "value"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#sortedLastIndexOf"
+    "url": "https://lodash.com/docs#sortedLastIndexOf"
   },
   {
     "name": "sortedUniq",
@@ -420,7 +420,7 @@
       "array"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#sortedUniq"
+    "url": "https://lodash.com/docs#sortedUniq"
   },
   {
     "name": "sortedUniqBy",
@@ -430,7 +430,7 @@
       "[iteratee]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#sortedUniqBy"
+    "url": "https://lodash.com/docs#sortedUniqBy"
   },
   {
     "name": "tail",
@@ -439,7 +439,7 @@
       "array"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#tail"
+    "url": "https://lodash.com/docs#tail"
   },
   {
     "name": "take",
@@ -449,7 +449,7 @@
       "[n=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#take"
+    "url": "https://lodash.com/docs#take"
   },
   {
     "name": "takeRight",
@@ -459,7 +459,7 @@
       "[n=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#takeRight"
+    "url": "https://lodash.com/docs#takeRight"
   },
   {
     "name": "takeRightWhile",
@@ -469,7 +469,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#takeRightWhile"
+    "url": "https://lodash.com/docs#takeRightWhile"
   },
   {
     "name": "takeWhile",
@@ -479,7 +479,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#takeWhile"
+    "url": "https://lodash.com/docs#takeWhile"
   },
   {
     "name": "union",
@@ -488,7 +488,7 @@
       "[arrays]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#union"
+    "url": "https://lodash.com/docs#union"
   },
   {
     "name": "unionBy",
@@ -498,7 +498,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#unionBy"
+    "url": "https://lodash.com/docs#unionBy"
   },
   {
     "name": "unionWith",
@@ -508,7 +508,7 @@
       "[comparator]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#unionWith"
+    "url": "https://lodash.com/docs#unionWith"
   },
   {
     "name": "uniq",
@@ -517,7 +517,7 @@
       "array"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#uniq"
+    "url": "https://lodash.com/docs#uniq"
   },
   {
     "name": "uniqBy",
@@ -527,7 +527,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#uniqBy"
+    "url": "https://lodash.com/docs#uniqBy"
   },
   {
     "name": "uniqWith",
@@ -537,7 +537,7 @@
       "[comparator]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#uniqWith"
+    "url": "https://lodash.com/docs#uniqWith"
   },
   {
     "name": "unzip",
@@ -546,7 +546,7 @@
       "array"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#unzip"
+    "url": "https://lodash.com/docs#unzip"
   },
   {
     "name": "unzipWith",
@@ -556,7 +556,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#unzipWith"
+    "url": "https://lodash.com/docs#unzipWith"
   },
   {
     "name": "without",
@@ -566,7 +566,7 @@
       "[values]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#without"
+    "url": "https://lodash.com/docs#without"
   },
   {
     "name": "xor",
@@ -575,7 +575,7 @@
       "[arrays]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#xor"
+    "url": "https://lodash.com/docs#xor"
   },
   {
     "name": "xorBy",
@@ -585,7 +585,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#xorBy"
+    "url": "https://lodash.com/docs#xorBy"
   },
   {
     "name": "xorWith",
@@ -595,7 +595,7 @@
       "[comparator]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#xorWith"
+    "url": "https://lodash.com/docs#xorWith"
   },
   {
     "name": "zip",
@@ -604,7 +604,7 @@
       "[arrays]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#zip"
+    "url": "https://lodash.com/docs#zip"
   },
   {
     "name": "zipObject",
@@ -614,7 +614,7 @@
       "[values=[]]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#zipObject"
+    "url": "https://lodash.com/docs#zipObject"
   },
   {
     "name": "zipObjectDeep",
@@ -624,7 +624,7 @@
       "[values=[]]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#zipObjectDeep"
+    "url": "https://lodash.com/docs#zipObjectDeep"
   },
   {
     "name": "zipWith",
@@ -634,7 +634,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#zipWith"
+    "url": "https://lodash.com/docs#zipWith"
   },
   {
     "name": "countBy",
@@ -644,7 +644,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#countBy"
+    "url": "https://lodash.com/docs#countBy"
   },
   {
     "name": "every",
@@ -654,7 +654,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#every"
+    "url": "https://lodash.com/docs#every"
   },
   {
     "name": "filter",
@@ -664,7 +664,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#filter"
+    "url": "https://lodash.com/docs#filter"
   },
   {
     "name": "find",
@@ -675,7 +675,7 @@
       "[fromIndex=0]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#find"
+    "url": "https://lodash.com/docs#find"
   },
   {
     "name": "findLast",
@@ -686,7 +686,7 @@
       "[fromIndex=collection.length-1]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#findLast"
+    "url": "https://lodash.com/docs#findLast"
   },
   {
     "name": "flatMap",
@@ -696,7 +696,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#flatMap"
+    "url": "https://lodash.com/docs#flatMap"
   },
   {
     "name": "flatMapDeep",
@@ -706,7 +706,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#flatMapDeep"
+    "url": "https://lodash.com/docs#flatMapDeep"
   },
   {
     "name": "flatMapDepth",
@@ -717,7 +717,7 @@
       "[depth=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#flatMapDepth"
+    "url": "https://lodash.com/docs#flatMapDepth"
   },
   {
     "name": "forEach",
@@ -727,7 +727,17 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#forEach"
+    "url": "https://lodash.com/docs#forEach"
+  },
+  {
+    "name": "each",
+    "description": "Iterates over elements of collection and invokes iteratee for each element. The iteratee is invoked with three arguments: (value, index|key, collection). Iteratee functions may exit iteration early by explicitly returning false.",
+    "args": [
+      "collection",
+      "[iteratee=_.identity]"
+    ],
+    "returns": "(*)",
+    "url": "https://lodash.com/docs#forEach"
   },
   {
     "name": "forEachRight",
@@ -737,7 +747,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#forEachRight"
+    "url": "https://lodash.com/docs#forEachRight"
   },
   {
     "name": "groupBy",
@@ -747,7 +757,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#groupBy"
+    "url": "https://lodash.com/docs#groupBy"
   },
   {
     "name": "includes",
@@ -758,7 +768,7 @@
       "[fromIndex=0]"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#includes"
+    "url": "https://lodash.com/docs#includes"
   },
   {
     "name": "invokeMap",
@@ -769,7 +779,7 @@
       "[args]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#invokeMap"
+    "url": "https://lodash.com/docs#invokeMap"
   },
   {
     "name": "keyBy",
@@ -779,7 +789,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#keyBy"
+    "url": "https://lodash.com/docs#keyBy"
   },
   {
     "name": "map",
@@ -789,7 +799,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#map"
+    "url": "https://lodash.com/docs#map"
   },
   {
     "name": "orderBy",
@@ -800,7 +810,7 @@
       "[orders]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#orderBy"
+    "url": "https://lodash.com/docs#orderBy"
   },
   {
     "name": "partition",
@@ -810,7 +820,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#partition"
+    "url": "https://lodash.com/docs#partition"
   },
   {
     "name": "reduce",
@@ -821,7 +831,7 @@
       "[accumulator]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#reduce"
+    "url": "https://lodash.com/docs#reduce"
   },
   {
     "name": "reduceRight",
@@ -832,7 +842,7 @@
       "[accumulator]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#reduceRight"
+    "url": "https://lodash.com/docs#reduceRight"
   },
   {
     "name": "reject",
@@ -842,7 +852,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#reject"
+    "url": "https://lodash.com/docs#reject"
   },
   {
     "name": "sample",
@@ -851,7 +861,7 @@
       "collection"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#sample"
+    "url": "https://lodash.com/docs#sample"
   },
   {
     "name": "sampleSize",
@@ -861,7 +871,7 @@
       "[n=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#sampleSize"
+    "url": "https://lodash.com/docs#sampleSize"
   },
   {
     "name": "shuffle",
@@ -870,7 +880,7 @@
       "collection"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#shuffle"
+    "url": "https://lodash.com/docs#shuffle"
   },
   {
     "name": "size",
@@ -879,7 +889,7 @@
       "collection"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#size"
+    "url": "https://lodash.com/docs#size"
   },
   {
     "name": "some",
@@ -889,7 +899,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#some"
+    "url": "https://lodash.com/docs#some"
   },
   {
     "name": "sortBy",
@@ -899,14 +909,14 @@
       "[iteratees=[_.identity]]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#sortBy"
+    "url": "https://lodash.com/docs#sortBy"
   },
   {
     "name": "now",
     "description": "Gets the timestamp of the number of milliseconds that have elapsed since the Unix epoch (1 January .",
     "returns": "(number)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#now"
+    "url": "https://lodash.com/docs#now"
   },
   {
     "name": "after",
@@ -916,7 +926,7 @@
       "func"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#after"
+    "url": "https://lodash.com/docs#after"
   },
   {
     "name": "ary",
@@ -926,7 +936,7 @@
       "[n=func.length]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#ary"
+    "url": "https://lodash.com/docs#ary"
   },
   {
     "name": "before",
@@ -936,7 +946,7 @@
       "func"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#before"
+    "url": "https://lodash.com/docs#before"
   },
   {
     "name": "bind",
@@ -947,7 +957,7 @@
       "[partials]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#bind"
+    "url": "https://lodash.com/docs#bind"
   },
   {
     "name": "bindKey",
@@ -958,7 +968,7 @@
       "[partials]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#bindKey"
+    "url": "https://lodash.com/docs#bindKey"
   },
   {
     "name": "curry",
@@ -968,7 +978,7 @@
       "[arity=func.length]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#curry"
+    "url": "https://lodash.com/docs#curry"
   },
   {
     "name": "curryRight",
@@ -978,7 +988,7 @@
       "[arity=func.length]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#curryRight"
+    "url": "https://lodash.com/docs#curryRight"
   },
   {
     "name": "debounce",
@@ -992,7 +1002,7 @@
       "[options.trailing=true]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#debounce"
+    "url": "https://lodash.com/docs#debounce"
   },
   {
     "name": "defer",
@@ -1002,7 +1012,7 @@
       "[args]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#defer"
+    "url": "https://lodash.com/docs#defer"
   },
   {
     "name": "delay",
@@ -1013,7 +1023,7 @@
       "[args]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#delay"
+    "url": "https://lodash.com/docs#delay"
   },
   {
     "name": "flip",
@@ -1022,7 +1032,7 @@
       "func"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#flip"
+    "url": "https://lodash.com/docs#flip"
   },
   {
     "name": "memoize",
@@ -1032,7 +1042,7 @@
       "[resolver]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#memoize"
+    "url": "https://lodash.com/docs#memoize"
   },
   {
     "name": "negate",
@@ -1041,7 +1051,7 @@
       "predicate"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#negate"
+    "url": "https://lodash.com/docs#negate"
   },
   {
     "name": "once",
@@ -1050,7 +1060,7 @@
       "func"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#once"
+    "url": "https://lodash.com/docs#once"
   },
   {
     "name": "overArgs",
@@ -1060,7 +1070,7 @@
       "[transforms=[_.identity]]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#overArgs"
+    "url": "https://lodash.com/docs#overArgs"
   },
   {
     "name": "partial",
@@ -1070,7 +1080,7 @@
       "[partials]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#partial"
+    "url": "https://lodash.com/docs#partial"
   },
   {
     "name": "partialRight",
@@ -1080,7 +1090,7 @@
       "[partials]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#partialRight"
+    "url": "https://lodash.com/docs#partialRight"
   },
   {
     "name": "rearg",
@@ -1090,7 +1100,7 @@
       "indexes"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#rearg"
+    "url": "https://lodash.com/docs#rearg"
   },
   {
     "name": "rest",
@@ -1100,7 +1110,7 @@
       "[start=func.length-1]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#rest"
+    "url": "https://lodash.com/docs#rest"
   },
   {
     "name": "spread",
@@ -1110,7 +1120,7 @@
       "[start=0]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#spread"
+    "url": "https://lodash.com/docs#spread"
   },
   {
     "name": "throttle",
@@ -1123,7 +1133,7 @@
       "[options.trailing=true]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#throttle"
+    "url": "https://lodash.com/docs#throttle"
   },
   {
     "name": "unary",
@@ -1132,7 +1142,7 @@
       "func"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#unary"
+    "url": "https://lodash.com/docs#unary"
   },
   {
     "name": "wrap",
@@ -1142,7 +1152,7 @@
       "[wrapper=identity]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#wrap"
+    "url": "https://lodash.com/docs#wrap"
   },
   {
     "name": "castArray",
@@ -1151,7 +1161,7 @@
       "value"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#castArray"
+    "url": "https://lodash.com/docs#castArray"
   },
   {
     "name": "clone",
@@ -1160,7 +1170,7 @@
       "value"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#clone"
+    "url": "https://lodash.com/docs#clone"
   },
   {
     "name": "cloneDeep",
@@ -1169,7 +1179,7 @@
       "value"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#cloneDeep"
+    "url": "https://lodash.com/docs#cloneDeep"
   },
   {
     "name": "cloneDeepWith",
@@ -1179,7 +1189,7 @@
       "[customizer]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#cloneDeepWith"
+    "url": "https://lodash.com/docs#cloneDeepWith"
   },
   {
     "name": "cloneWith",
@@ -1189,7 +1199,7 @@
       "[customizer]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#cloneWith"
+    "url": "https://lodash.com/docs#cloneWith"
   },
   {
     "name": "conformsTo",
@@ -1199,7 +1209,7 @@
       "source"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#conformsTo"
+    "url": "https://lodash.com/docs#conformsTo"
   },
   {
     "name": "eq",
@@ -1209,7 +1219,7 @@
       "other"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#eq"
+    "url": "https://lodash.com/docs#eq"
   },
   {
     "name": "gt",
@@ -1219,7 +1229,7 @@
       "other"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#gt"
+    "url": "https://lodash.com/docs#gt"
   },
   {
     "name": "gte",
@@ -1229,7 +1239,7 @@
       "other"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#gte"
+    "url": "https://lodash.com/docs#gte"
   },
   {
     "name": "isArguments",
@@ -1238,7 +1248,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isArguments"
+    "url": "https://lodash.com/docs#isArguments"
   },
   {
     "name": "isArray",
@@ -1247,7 +1257,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isArray"
+    "url": "https://lodash.com/docs#isArray"
   },
   {
     "name": "isArrayBuffer",
@@ -1256,7 +1266,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isArrayBuffer"
+    "url": "https://lodash.com/docs#isArrayBuffer"
   },
   {
     "name": "isArrayLike",
@@ -1265,7 +1275,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isArrayLike"
+    "url": "https://lodash.com/docs#isArrayLike"
   },
   {
     "name": "isArrayLikeObject",
@@ -1274,7 +1284,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isArrayLikeObject"
+    "url": "https://lodash.com/docs#isArrayLikeObject"
   },
   {
     "name": "isBoolean",
@@ -1283,7 +1293,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isBoolean"
+    "url": "https://lodash.com/docs#isBoolean"
   },
   {
     "name": "isBuffer",
@@ -1292,7 +1302,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isBuffer"
+    "url": "https://lodash.com/docs#isBuffer"
   },
   {
     "name": "isDate",
@@ -1301,7 +1311,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isDate"
+    "url": "https://lodash.com/docs#isDate"
   },
   {
     "name": "isElement",
@@ -1310,7 +1320,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isElement"
+    "url": "https://lodash.com/docs#isElement"
   },
   {
     "name": "isEmpty",
@@ -1319,7 +1329,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isEmpty"
+    "url": "https://lodash.com/docs#isEmpty"
   },
   {
     "name": "isEqual",
@@ -1329,7 +1339,7 @@
       "other"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isEqual"
+    "url": "https://lodash.com/docs#isEqual"
   },
   {
     "name": "isEqualWith",
@@ -1340,7 +1350,7 @@
       "[customizer]"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isEqualWith"
+    "url": "https://lodash.com/docs#isEqualWith"
   },
   {
     "name": "isError",
@@ -1349,7 +1359,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isError"
+    "url": "https://lodash.com/docs#isError"
   },
   {
     "name": "isFinite",
@@ -1358,7 +1368,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isFinite"
+    "url": "https://lodash.com/docs#isFinite"
   },
   {
     "name": "isFunction",
@@ -1367,7 +1377,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isFunction"
+    "url": "https://lodash.com/docs#isFunction"
   },
   {
     "name": "isInteger",
@@ -1376,7 +1386,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isInteger"
+    "url": "https://lodash.com/docs#isInteger"
   },
   {
     "name": "isLength",
@@ -1385,7 +1395,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isLength"
+    "url": "https://lodash.com/docs#isLength"
   },
   {
     "name": "isMap",
@@ -1394,7 +1404,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isMap"
+    "url": "https://lodash.com/docs#isMap"
   },
   {
     "name": "isMatch",
@@ -1404,7 +1414,7 @@
       "source"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isMatch"
+    "url": "https://lodash.com/docs#isMatch"
   },
   {
     "name": "isMatchWith",
@@ -1415,7 +1425,7 @@
       "[customizer]"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isMatchWith"
+    "url": "https://lodash.com/docs#isMatchWith"
   },
   {
     "name": "isNaN",
@@ -1424,7 +1434,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isNaN"
+    "url": "https://lodash.com/docs#isNaN"
   },
   {
     "name": "isNative",
@@ -1433,7 +1443,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isNative"
+    "url": "https://lodash.com/docs#isNative"
   },
   {
     "name": "isNil",
@@ -1442,7 +1452,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isNil"
+    "url": "https://lodash.com/docs#isNil"
   },
   {
     "name": "isNull",
@@ -1451,7 +1461,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isNull"
+    "url": "https://lodash.com/docs#isNull"
   },
   {
     "name": "isNumber",
@@ -1460,7 +1470,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isNumber"
+    "url": "https://lodash.com/docs#isNumber"
   },
   {
     "name": "isObject",
@@ -1469,7 +1479,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isObject"
+    "url": "https://lodash.com/docs#isObject"
   },
   {
     "name": "isObjectLike",
@@ -1478,7 +1488,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isObjectLike"
+    "url": "https://lodash.com/docs#isObjectLike"
   },
   {
     "name": "isPlainObject",
@@ -1487,7 +1497,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isPlainObject"
+    "url": "https://lodash.com/docs#isPlainObject"
   },
   {
     "name": "isRegExp",
@@ -1496,7 +1506,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isRegExp"
+    "url": "https://lodash.com/docs#isRegExp"
   },
   {
     "name": "isSafeInteger",
@@ -1505,7 +1515,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isSafeInteger"
+    "url": "https://lodash.com/docs#isSafeInteger"
   },
   {
     "name": "isSet",
@@ -1514,7 +1524,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isSet"
+    "url": "https://lodash.com/docs#isSet"
   },
   {
     "name": "isString",
@@ -1523,7 +1533,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isString"
+    "url": "https://lodash.com/docs#isString"
   },
   {
     "name": "isSymbol",
@@ -1532,7 +1542,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isSymbol"
+    "url": "https://lodash.com/docs#isSymbol"
   },
   {
     "name": "isTypedArray",
@@ -1541,7 +1551,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isTypedArray"
+    "url": "https://lodash.com/docs#isTypedArray"
   },
   {
     "name": "isUndefined",
@@ -1550,7 +1560,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isUndefined"
+    "url": "https://lodash.com/docs#isUndefined"
   },
   {
     "name": "isWeakMap",
@@ -1559,7 +1569,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isWeakMap"
+    "url": "https://lodash.com/docs#isWeakMap"
   },
   {
     "name": "isWeakSet",
@@ -1568,7 +1578,7 @@
       "value"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#isWeakSet"
+    "url": "https://lodash.com/docs#isWeakSet"
   },
   {
     "name": "lt",
@@ -1578,7 +1588,7 @@
       "other"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#lt"
+    "url": "https://lodash.com/docs#lt"
   },
   {
     "name": "lte",
@@ -1588,7 +1598,7 @@
       "other"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#lte"
+    "url": "https://lodash.com/docs#lte"
   },
   {
     "name": "toArray",
@@ -1597,7 +1607,7 @@
       "value"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#toArray"
+    "url": "https://lodash.com/docs#toArray"
   },
   {
     "name": "toFinite",
@@ -1606,7 +1616,7 @@
       "value"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#toFinite"
+    "url": "https://lodash.com/docs#toFinite"
   },
   {
     "name": "toInteger",
@@ -1615,7 +1625,7 @@
       "value"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#toInteger"
+    "url": "https://lodash.com/docs#toInteger"
   },
   {
     "name": "toLength",
@@ -1624,7 +1634,7 @@
       "value"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#toLength"
+    "url": "https://lodash.com/docs#toLength"
   },
   {
     "name": "toNumber",
@@ -1633,7 +1643,7 @@
       "value"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#toNumber"
+    "url": "https://lodash.com/docs#toNumber"
   },
   {
     "name": "toPlainObject",
@@ -1642,7 +1652,7 @@
       "value"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#toPlainObject"
+    "url": "https://lodash.com/docs#toPlainObject"
   },
   {
     "name": "toSafeInteger",
@@ -1651,7 +1661,7 @@
       "value"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#toSafeInteger"
+    "url": "https://lodash.com/docs#toSafeInteger"
   },
   {
     "name": "toString",
@@ -1660,7 +1670,7 @@
       "value"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#toString"
+    "url": "https://lodash.com/docs#toString"
   },
   {
     "name": "add",
@@ -1670,7 +1680,7 @@
       "addend"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#add"
+    "url": "https://lodash.com/docs#add"
   },
   {
     "name": "ceil",
@@ -1680,7 +1690,7 @@
       "[precision=0]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#ceil"
+    "url": "https://lodash.com/docs#ceil"
   },
   {
     "name": "divide",
@@ -1690,7 +1700,7 @@
       "divisor"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#divide"
+    "url": "https://lodash.com/docs#divide"
   },
   {
     "name": "floor",
@@ -1700,7 +1710,7 @@
       "[precision=0]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#floor"
+    "url": "https://lodash.com/docs#floor"
   },
   {
     "name": "max",
@@ -1709,7 +1719,7 @@
       "array"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#max"
+    "url": "https://lodash.com/docs#max"
   },
   {
     "name": "maxBy",
@@ -1719,7 +1729,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#maxBy"
+    "url": "https://lodash.com/docs#maxBy"
   },
   {
     "name": "mean",
@@ -1728,7 +1738,7 @@
       "array"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#mean"
+    "url": "https://lodash.com/docs#mean"
   },
   {
     "name": "meanBy",
@@ -1738,7 +1748,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#meanBy"
+    "url": "https://lodash.com/docs#meanBy"
   },
   {
     "name": "min",
@@ -1747,7 +1757,7 @@
       "array"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#min"
+    "url": "https://lodash.com/docs#min"
   },
   {
     "name": "minBy",
@@ -1757,7 +1767,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#minBy"
+    "url": "https://lodash.com/docs#minBy"
   },
   {
     "name": "multiply",
@@ -1767,7 +1777,7 @@
       "multiplicand"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#multiply"
+    "url": "https://lodash.com/docs#multiply"
   },
   {
     "name": "round",
@@ -1777,7 +1787,7 @@
       "[precision=0]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#round"
+    "url": "https://lodash.com/docs#round"
   },
   {
     "name": "subtract",
@@ -1787,7 +1797,7 @@
       "subtrahend"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#subtract"
+    "url": "https://lodash.com/docs#subtract"
   },
   {
     "name": "sum",
@@ -1796,7 +1806,7 @@
       "array"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#sum"
+    "url": "https://lodash.com/docs#sum"
   },
   {
     "name": "sumBy",
@@ -1806,7 +1816,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#sumBy"
+    "url": "https://lodash.com/docs#sumBy"
   },
   {
     "name": "clamp",
@@ -1817,7 +1827,7 @@
       "upper"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#clamp"
+    "url": "https://lodash.com/docs#clamp"
   },
   {
     "name": "inRange",
@@ -1828,7 +1838,7 @@
       "end"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#inRange"
+    "url": "https://lodash.com/docs#inRange"
   },
   {
     "name": "random",
@@ -1839,7 +1849,7 @@
       "[floating]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#random"
+    "url": "https://lodash.com/docs#random"
   },
   {
     "name": "assign",
@@ -1849,7 +1859,7 @@
       "[sources]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#assign"
+    "url": "https://lodash.com/docs#assign"
   },
   {
     "name": "assignIn",
@@ -1859,7 +1869,7 @@
       "[sources]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#assignIn"
+    "url": "https://lodash.com/docs#assignIn"
   },
   {
     "name": "assignInWith",
@@ -1870,7 +1880,7 @@
       "[customizer]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#assignInWith"
+    "url": "https://lodash.com/docs#assignInWith"
   },
   {
     "name": "assignWith",
@@ -1881,7 +1891,7 @@
       "[customizer]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#assignWith"
+    "url": "https://lodash.com/docs#assignWith"
   },
   {
     "name": "at",
@@ -1891,7 +1901,7 @@
       "[paths]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#at"
+    "url": "https://lodash.com/docs#at"
   },
   {
     "name": "create",
@@ -1901,7 +1911,7 @@
       "[properties]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#create"
+    "url": "https://lodash.com/docs#create"
   },
   {
     "name": "defaults",
@@ -1911,7 +1921,7 @@
       "[sources]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#defaults"
+    "url": "https://lodash.com/docs#defaults"
   },
   {
     "name": "defaultsDeep",
@@ -1921,7 +1931,7 @@
       "[sources]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#defaultsDeep"
+    "url": "https://lodash.com/docs#defaultsDeep"
   },
   {
     "name": "findKey",
@@ -1931,7 +1941,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#findKey"
+    "url": "https://lodash.com/docs#findKey"
   },
   {
     "name": "findLastKey",
@@ -1941,7 +1951,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#findLastKey"
+    "url": "https://lodash.com/docs#findLastKey"
   },
   {
     "name": "forIn",
@@ -1951,7 +1961,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#forIn"
+    "url": "https://lodash.com/docs#forIn"
   },
   {
     "name": "forInRight",
@@ -1961,7 +1971,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#forInRight"
+    "url": "https://lodash.com/docs#forInRight"
   },
   {
     "name": "forOwn",
@@ -1971,7 +1981,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#forOwn"
+    "url": "https://lodash.com/docs#forOwn"
   },
   {
     "name": "forOwnRight",
@@ -1981,7 +1991,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#forOwnRight"
+    "url": "https://lodash.com/docs#forOwnRight"
   },
   {
     "name": "functions",
@@ -1990,7 +2000,7 @@
       "object"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#functions"
+    "url": "https://lodash.com/docs#functions"
   },
   {
     "name": "functionsIn",
@@ -1999,7 +2009,7 @@
       "object"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#functionsIn"
+    "url": "https://lodash.com/docs#functionsIn"
   },
   {
     "name": "get",
@@ -2010,7 +2020,7 @@
       "[defaultValue]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#get"
+    "url": "https://lodash.com/docs#get"
   },
   {
     "name": "has",
@@ -2020,7 +2030,7 @@
       "path"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#has"
+    "url": "https://lodash.com/docs#has"
   },
   {
     "name": "hasIn",
@@ -2030,7 +2040,7 @@
       "path"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#hasIn"
+    "url": "https://lodash.com/docs#hasIn"
   },
   {
     "name": "invert",
@@ -2039,7 +2049,7 @@
       "object"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#invert"
+    "url": "https://lodash.com/docs#invert"
   },
   {
     "name": "invertBy",
@@ -2049,7 +2059,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#invertBy"
+    "url": "https://lodash.com/docs#invertBy"
   },
   {
     "name": "invoke",
@@ -2060,7 +2070,7 @@
       "[args]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#invoke"
+    "url": "https://lodash.com/docs#invoke"
   },
   {
     "name": "keys",
@@ -2069,7 +2079,7 @@
       "object"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#keys"
+    "url": "https://lodash.com/docs#keys"
   },
   {
     "name": "keysIn",
@@ -2078,7 +2088,7 @@
       "object"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#keysIn"
+    "url": "https://lodash.com/docs#keysIn"
   },
   {
     "name": "mapKeys",
@@ -2088,7 +2098,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#mapKeys"
+    "url": "https://lodash.com/docs#mapKeys"
   },
   {
     "name": "mapValues",
@@ -2098,7 +2108,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#mapValues"
+    "url": "https://lodash.com/docs#mapValues"
   },
   {
     "name": "merge",
@@ -2108,7 +2118,7 @@
       "[sources]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#merge"
+    "url": "https://lodash.com/docs#merge"
   },
   {
     "name": "mergeWith",
@@ -2119,7 +2129,7 @@
       "customizer"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#mergeWith"
+    "url": "https://lodash.com/docs#mergeWith"
   },
   {
     "name": "omit",
@@ -2129,7 +2139,7 @@
       "[paths]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#omit"
+    "url": "https://lodash.com/docs#omit"
   },
   {
     "name": "omitBy",
@@ -2139,7 +2149,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#omitBy"
+    "url": "https://lodash.com/docs#omitBy"
   },
   {
     "name": "pick",
@@ -2149,7 +2159,7 @@
       "[paths]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#pick"
+    "url": "https://lodash.com/docs#pick"
   },
   {
     "name": "pickBy",
@@ -2159,7 +2169,7 @@
       "[predicate=_.identity]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#pickBy"
+    "url": "https://lodash.com/docs#pickBy"
   },
   {
     "name": "result",
@@ -2170,7 +2180,7 @@
       "[defaultValue]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#result"
+    "url": "https://lodash.com/docs#result"
   },
   {
     "name": "set",
@@ -2181,7 +2191,7 @@
       "value"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#set"
+    "url": "https://lodash.com/docs#set"
   },
   {
     "name": "setWith",
@@ -2193,7 +2203,7 @@
       "[customizer]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#setWith"
+    "url": "https://lodash.com/docs#setWith"
   },
   {
     "name": "toPairs",
@@ -2202,7 +2212,7 @@
       "object"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#toPairs"
+    "url": "https://lodash.com/docs#toPairs"
   },
   {
     "name": "toPairsIn",
@@ -2211,7 +2221,7 @@
       "object"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#toPairsIn"
+    "url": "https://lodash.com/docs#toPairsIn"
   },
   {
     "name": "transform",
@@ -2222,7 +2232,7 @@
       "[accumulator]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#transform"
+    "url": "https://lodash.com/docs#transform"
   },
   {
     "name": "unset",
@@ -2232,7 +2242,7 @@
       "path"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#unset"
+    "url": "https://lodash.com/docs#unset"
   },
   {
     "name": "update",
@@ -2243,7 +2253,7 @@
       "updater"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#update"
+    "url": "https://lodash.com/docs#update"
   },
   {
     "name": "updateWith",
@@ -2255,7 +2265,7 @@
       "[customizer]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#updateWith"
+    "url": "https://lodash.com/docs#updateWith"
   },
   {
     "name": "values",
@@ -2264,7 +2274,7 @@
       "object"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#values"
+    "url": "https://lodash.com/docs#values"
   },
   {
     "name": "valuesIn",
@@ -2273,7 +2283,7 @@
       "object"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#valuesIn"
+    "url": "https://lodash.com/docs#valuesIn"
   },
   {
     "name": "chain",
@@ -2282,7 +2292,7 @@
       "value"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#chain"
+    "url": "https://lodash.com/docs#chain"
   },
   {
     "name": "tap",
@@ -2292,7 +2302,7 @@
       "interceptor"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#tap"
+    "url": "https://lodash.com/docs#tap"
   },
   {
     "name": "thru",
@@ -2302,7 +2312,7 @@
       "interceptor"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#thru"
+    "url": "https://lodash.com/docs#thru"
   },
   {
     "name": "at",
@@ -2311,28 +2321,28 @@
       "[paths]"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#at"
+    "url": "https://lodash.com/docs#at"
   },
   {
     "name": "chain",
     "description": "Creates a lodash wrapper instance with explicit method chain sequences enabled.",
     "returns": "(Object)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#chain"
+    "url": "https://lodash.com/docs#chain"
   },
   {
     "name": "commit",
     "description": "Executes the chain sequence and returns the wrapped result.",
     "returns": "(Object)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#commit"
+    "url": "https://lodash.com/docs#commit"
   },
   {
     "name": "next",
     "description": "Gets the next value on a wrapped object following the [object Object].",
     "returns": "(Object)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#next"
+    "url": "https://lodash.com/docs#next"
   },
   {
     "name": "plant",
@@ -2341,21 +2351,21 @@
       "value"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#plant"
+    "url": "https://lodash.com/docs#plant"
   },
   {
     "name": "reverse",
     "description": "This method is the wrapper version of _.reverse.",
     "returns": "(Object)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#reverse"
+    "url": "https://lodash.com/docs#reverse"
   },
   {
     "name": "value",
     "description": "Executes the chain sequence to resolve the unwrapped value.",
     "returns": "(*)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#value"
+    "url": "https://lodash.com/docs#value"
   },
   {
     "name": "camelCase",
@@ -2364,7 +2374,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#camelCase"
+    "url": "https://lodash.com/docs#camelCase"
   },
   {
     "name": "capitalize",
@@ -2373,7 +2383,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#capitalize"
+    "url": "https://lodash.com/docs#capitalize"
   },
   {
     "name": "deburr",
@@ -2382,7 +2392,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#deburr"
+    "url": "https://lodash.com/docs#deburr"
   },
   {
     "name": "endsWith",
@@ -2393,7 +2403,7 @@
       "[position=string.length]"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#endsWith"
+    "url": "https://lodash.com/docs#endsWith"
   },
   {
     "name": "escape",
@@ -2402,7 +2412,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#escape"
+    "url": "https://lodash.com/docs#escape"
   },
   {
     "name": "escapeRegExp",
@@ -2411,7 +2421,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#escapeRegExp"
+    "url": "https://lodash.com/docs#escapeRegExp"
   },
   {
     "name": "kebabCase",
@@ -2420,7 +2430,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#kebabCase"
+    "url": "https://lodash.com/docs#kebabCase"
   },
   {
     "name": "lowerCase",
@@ -2429,7 +2439,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#lowerCase"
+    "url": "https://lodash.com/docs#lowerCase"
   },
   {
     "name": "lowerFirst",
@@ -2438,7 +2448,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#lowerFirst"
+    "url": "https://lodash.com/docs#lowerFirst"
   },
   {
     "name": "pad",
@@ -2449,7 +2459,7 @@
       "[chars=' ']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#pad"
+    "url": "https://lodash.com/docs#pad"
   },
   {
     "name": "padEnd",
@@ -2460,7 +2470,7 @@
       "[chars=' ']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#padEnd"
+    "url": "https://lodash.com/docs#padEnd"
   },
   {
     "name": "padStart",
@@ -2471,7 +2481,7 @@
       "[chars=' ']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#padStart"
+    "url": "https://lodash.com/docs#padStart"
   },
   {
     "name": "parseInt",
@@ -2481,7 +2491,7 @@
       "[radix=10]"
     ],
     "returns": "(number)",
-    "url": "https://lodash.com/docs/4.16.4#parseInt"
+    "url": "https://lodash.com/docs#parseInt"
   },
   {
     "name": "repeat",
@@ -2491,7 +2501,7 @@
       "[n=1]"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#repeat"
+    "url": "https://lodash.com/docs#repeat"
   },
   {
     "name": "replace",
@@ -2502,7 +2512,7 @@
       "replacement"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#replace"
+    "url": "https://lodash.com/docs#replace"
   },
   {
     "name": "snakeCase",
@@ -2511,7 +2521,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#snakeCase"
+    "url": "https://lodash.com/docs#snakeCase"
   },
   {
     "name": "split",
@@ -2522,7 +2532,7 @@
       "[limit]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#split"
+    "url": "https://lodash.com/docs#split"
   },
   {
     "name": "startCase",
@@ -2531,7 +2541,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#startCase"
+    "url": "https://lodash.com/docs#startCase"
   },
   {
     "name": "startsWith",
@@ -2542,7 +2552,7 @@
       "[position=0]"
     ],
     "returns": "(boolean)",
-    "url": "https://lodash.com/docs/4.16.4#startsWith"
+    "url": "https://lodash.com/docs#startsWith"
   },
   {
     "name": "template",
@@ -2558,7 +2568,7 @@
       "[options.variable='obj']"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#template"
+    "url": "https://lodash.com/docs#template"
   },
   {
     "name": "toLower",
@@ -2567,7 +2577,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#toLower"
+    "url": "https://lodash.com/docs#toLower"
   },
   {
     "name": "toUpper",
@@ -2576,7 +2586,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#toUpper"
+    "url": "https://lodash.com/docs#toUpper"
   },
   {
     "name": "trim",
@@ -2586,7 +2596,7 @@
       "[chars=whitespace]"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#trim"
+    "url": "https://lodash.com/docs#trim"
   },
   {
     "name": "trimEnd",
@@ -2596,7 +2606,7 @@
       "[chars=whitespace]"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#trimEnd"
+    "url": "https://lodash.com/docs#trimEnd"
   },
   {
     "name": "trimStart",
@@ -2606,7 +2616,7 @@
       "[chars=whitespace]"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#trimStart"
+    "url": "https://lodash.com/docs#trimStart"
   },
   {
     "name": "truncate",
@@ -2619,7 +2629,7 @@
       "[options.separator]"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#truncate"
+    "url": "https://lodash.com/docs#truncate"
   },
   {
     "name": "unescape",
@@ -2628,7 +2638,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#unescape"
+    "url": "https://lodash.com/docs#unescape"
   },
   {
     "name": "upperCase",
@@ -2637,7 +2647,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#upperCase"
+    "url": "https://lodash.com/docs#upperCase"
   },
   {
     "name": "upperFirst",
@@ -2646,7 +2656,7 @@
       "[string='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#upperFirst"
+    "url": "https://lodash.com/docs#upperFirst"
   },
   {
     "name": "words",
@@ -2656,7 +2666,7 @@
       "[pattern]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#words"
+    "url": "https://lodash.com/docs#words"
   },
   {
     "name": "attempt",
@@ -2666,7 +2676,7 @@
       "[args]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#attempt"
+    "url": "https://lodash.com/docs#attempt"
   },
   {
     "name": "bindAll",
@@ -2676,7 +2686,7 @@
       "methodNames"
     ],
     "returns": "(Object)",
-    "url": "https://lodash.com/docs/4.16.4#bindAll"
+    "url": "https://lodash.com/docs#bindAll"
   },
   {
     "name": "cond",
@@ -2685,7 +2695,7 @@
       "pairs"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#cond"
+    "url": "https://lodash.com/docs#cond"
   },
   {
     "name": "conforms",
@@ -2694,7 +2704,7 @@
       "source"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#conforms"
+    "url": "https://lodash.com/docs#conforms"
   },
   {
     "name": "constant",
@@ -2703,7 +2713,7 @@
       "value"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#constant"
+    "url": "https://lodash.com/docs#constant"
   },
   {
     "name": "defaultTo",
@@ -2713,7 +2723,7 @@
       "defaultValue"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#defaultTo"
+    "url": "https://lodash.com/docs#defaultTo"
   },
   {
     "name": "flow",
@@ -2722,7 +2732,7 @@
       "[funcs]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#flow"
+    "url": "https://lodash.com/docs#flow"
   },
   {
     "name": "flowRight",
@@ -2731,7 +2741,7 @@
       "[funcs]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#flowRight"
+    "url": "https://lodash.com/docs#flowRight"
   },
   {
     "name": "identity",
@@ -2740,7 +2750,7 @@
       "value"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#identity"
+    "url": "https://lodash.com/docs#identity"
   },
   {
     "name": "iteratee",
@@ -2749,7 +2759,7 @@
       "[func=_.identity]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#iteratee"
+    "url": "https://lodash.com/docs#iteratee"
   },
   {
     "name": "matches",
@@ -2758,7 +2768,7 @@
       "source"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#matches"
+    "url": "https://lodash.com/docs#matches"
   },
   {
     "name": "matchesProperty",
@@ -2768,7 +2778,7 @@
       "srcValue"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#matchesProperty"
+    "url": "https://lodash.com/docs#matchesProperty"
   },
   {
     "name": "method",
@@ -2778,7 +2788,7 @@
       "[args]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#method"
+    "url": "https://lodash.com/docs#method"
   },
   {
     "name": "methodOf",
@@ -2788,7 +2798,7 @@
       "[args]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#methodOf"
+    "url": "https://lodash.com/docs#methodOf"
   },
   {
     "name": "mixin",
@@ -2800,21 +2810,21 @@
       "[options.chain=true]"
     ],
     "returns": "(*)",
-    "url": "https://lodash.com/docs/4.16.4#mixin"
+    "url": "https://lodash.com/docs#mixin"
   },
   {
     "name": "noConflict",
     "description": "Reverts the _ variable to its previous value and returns a reference to the lodash function.",
     "returns": "(Function)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#noConflict"
+    "url": "https://lodash.com/docs#noConflict"
   },
   {
     "name": "noop",
     "description": "This method returns undefined.",
     "args": [],
     "returns": "undefined",
-    "url": "https://lodash.com/docs/4.16.4#noop"
+    "url": "https://lodash.com/docs#noop"
   },
   {
     "name": "nthArg",
@@ -2823,7 +2833,7 @@
       "[n=0]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#nthArg"
+    "url": "https://lodash.com/docs#nthArg"
   },
   {
     "name": "over",
@@ -2832,7 +2842,7 @@
       "[iteratees=[_.identity]]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#over"
+    "url": "https://lodash.com/docs#over"
   },
   {
     "name": "overEvery",
@@ -2841,7 +2851,7 @@
       "[predicates=[_.identity]]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#overEvery"
+    "url": "https://lodash.com/docs#overEvery"
   },
   {
     "name": "overSome",
@@ -2850,7 +2860,7 @@
       "[predicates=[_.identity]]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#overSome"
+    "url": "https://lodash.com/docs#overSome"
   },
   {
     "name": "property",
@@ -2859,7 +2869,7 @@
       "path"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#property"
+    "url": "https://lodash.com/docs#property"
   },
   {
     "name": "propertyOf",
@@ -2868,7 +2878,7 @@
       "object"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#propertyOf"
+    "url": "https://lodash.com/docs#propertyOf"
   },
   {
     "name": "range",
@@ -2879,7 +2889,7 @@
       "[step=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#range"
+    "url": "https://lodash.com/docs#range"
   },
   {
     "name": "rangeRight",
@@ -2890,7 +2900,7 @@
       "[step=1]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#rangeRight"
+    "url": "https://lodash.com/docs#rangeRight"
   },
   {
     "name": "runInContext",
@@ -2899,42 +2909,42 @@
       "[context=root]"
     ],
     "returns": "(Function)",
-    "url": "https://lodash.com/docs/4.16.4#runInContext"
+    "url": "https://lodash.com/docs#runInContext"
   },
   {
     "name": "stubArray",
     "description": "This method returns a new empty array.",
     "returns": "(Array)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#stubArray"
+    "url": "https://lodash.com/docs#stubArray"
   },
   {
     "name": "stubFalse",
     "description": "This method returns false.",
     "returns": "(boolean)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#stubFalse"
+    "url": "https://lodash.com/docs#stubFalse"
   },
   {
     "name": "stubObject",
     "description": "This method returns a new empty object.",
     "returns": "(Object)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#stubObject"
+    "url": "https://lodash.com/docs#stubObject"
   },
   {
     "name": "stubString",
     "description": "This method returns an empty string.",
     "returns": "(string)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#stubString"
+    "url": "https://lodash.com/docs#stubString"
   },
   {
     "name": "stubTrue",
     "description": "This method returns true.",
     "returns": "(boolean)",
     "args": [],
-    "url": "https://lodash.com/docs/4.16.4#stubTrue"
+    "url": "https://lodash.com/docs#stubTrue"
   },
   {
     "name": "times",
@@ -2944,7 +2954,7 @@
       "[iteratee=_.identity]"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#times"
+    "url": "https://lodash.com/docs#times"
   },
   {
     "name": "toPath",
@@ -2953,7 +2963,7 @@
       "value"
     ],
     "returns": "(Array)",
-    "url": "https://lodash.com/docs/4.16.4#toPath"
+    "url": "https://lodash.com/docs#toPath"
   },
   {
     "name": "uniqueId",
@@ -2962,6 +2972,6 @@
       "[prefix='']"
     ],
     "returns": "(string)",
-    "url": "https://lodash.com/docs/4.16.4#uniqueId"
+    "url": "https://lodash.com/docs#uniqueId"
   }
 ]
